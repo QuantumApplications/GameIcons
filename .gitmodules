@@ -1,0 +1,3 @@
+[submodule "Resources/icons"]
+	path = Resources/icons
+	url = https://github.com/QuantumApplications/icons.git
