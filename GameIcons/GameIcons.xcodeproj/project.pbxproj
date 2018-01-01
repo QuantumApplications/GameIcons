@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1354041FDF0D8B007D6919 /* GameIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1354031FDF0D8B007D6919 /* GameIcon.swift */; };
+		9F1354111FDF2BEA007D6919 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 9F1354101FDF2BEA007D6919 /* icons */; };
+		9F1354141FDF2C0F007D6919 /* SwiftSVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F13540C1FDF2BCF007D6919 /* SwiftSVG.framework */; };
 		9F8B286F1FDDEE8F006C8917 /* GameIcons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8B28651FDDEE8F006C8917 /* GameIcons.framework */; };
 		9F8B28741FDDEE8F006C8917 /* GameIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B28731FDDEE8F006C8917 /* GameIconsTests.swift */; };
 		9F8B28761FDDEE8F006C8917 /* GameIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B28681FDDEE8F006C8917 /* GameIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		9F13540B1FDF2BCF007D6919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 39B8D88C1B3C3283009DAF60;
+			remoteInfo = SwiftSVG;
+		};
+		9F13540D1FDF2BCF007D6919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 176BC9901EE474D100F7B54C;
+			remoteInfo = SwiftSVGTests;
+		};
+		9F1354121FDF2C08007D6919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 39B8D88B1B3C3283009DAF60;
+			remoteInfo = SwiftSVG;
+		};
 		9F8B28701FDDEE8F006C8917 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F8B285C1FDDEE8E006C8917 /* Project object */;
@@ -23,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F1354031FDF0D8B007D6919 /* GameIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIcon.swift; sourceTree = "<group>"; };
+		9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSVG.xcodeproj; path = ../Frameworks/SwiftSVG/SwiftSVG.xcodeproj; sourceTree = "<group>"; };
+		9F1354101FDF2BEA007D6919 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../Resources/icons; sourceTree = "<group>"; };
 		9F8B28651FDDEE8F006C8917 /* GameIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8B28681FDDEE8F006C8917 /* GameIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameIcons.h; sourceTree = "<group>"; };
 		9F8B28691FDDEE8F006C8917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1354141FDF2C0F007D6919 /* SwiftSVG.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,11 +78,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9F1354051FDF2BB9007D6919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F1354071FDF2BCE007D6919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F13540C1FDF2BCF007D6919 /* SwiftSVG.framework */,
+				9F13540E1FDF2BCF007D6919 /* SwiftSVGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F13540F1FDF2BD5007D6919 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9F1354101FDF2BEA007D6919 /* icons */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		9F8B285B1FDDEE8E006C8917 = {
 			isa = PBXGroup;
 			children = (
 				9F8B28671FDDEE8F006C8917 /* GameIcons */,
 				9F8B28721FDDEE8F006C8917 /* GameIconsTests */,
+				9F1354051FDF2BB9007D6919 /* Frameworks */,
+				9F13540F1FDF2BD5007D6919 /* Resources */,
 				9F8B28661FDDEE8F006C8917 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +128,7 @@
 			children = (
 				9F8B28681FDDEE8F006C8917 /* GameIcons.h */,
 				9F8B28691FDDEE8F006C8917 /* Info.plist */,
+				9F1354031FDF0D8B007D6919 /* GameIcon.swift */,
 			);
 			path = GameIcons;
 			sourceTree = "<group>";
@@ -112,6 +168,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9F1354131FDF2C08007D6919 /* PBXTargetDependency */,
 			);
 			name = GameIcons;
 			productName = GameIcons;
@@ -148,6 +205,7 @@
 				TargetAttributes = {
 					9F8B28641FDDEE8F006C8917 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					9F8B286D1FDDEE8F006C8917 = {
@@ -166,6 +224,12 @@
 			mainGroup = 9F8B285B1FDDEE8E006C8917;
 			productRefGroup = 9F8B28661FDDEE8F006C8917 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9F1354071FDF2BCE007D6919 /* Products */;
+					ProjectRef = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9F8B28641FDDEE8F006C8917 /* GameIcons */,
@@ -174,11 +238,29 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9F13540C1FDF2BCF007D6919 /* SwiftSVG.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSVG.framework;
+			remoteRef = 9F13540B1FDF2BCF007D6919 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9F13540E1FDF2BCF007D6919 /* SwiftSVGTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftSVGTests.xctest;
+			remoteRef = 9F13540D1FDF2BCF007D6919 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		9F8B28631FDDEE8F006C8917 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1354111FDF2BEA007D6919 /* icons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1354041FDF0D8B007D6919 /* GameIcon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +293,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		9F1354131FDF2C08007D6919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSVG;
+			targetProxy = 9F1354121FDF2C08007D6919 /* PBXContainerItemProxy */;
+		};
 		9F8B28711FDDEE8F006C8917 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9F8B28641FDDEE8F006C8917 /* GameIcons */;
@@ -267,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +409,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -334,6 +422,7 @@
 		9F8B287A1FDDEE8F006C8917 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +436,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = qa.quantum.GameIcons;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +445,7 @@
 		9F8B287B1FDDEE8F006C8917 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +467,7 @@
 		9F8B287D1FDDEE8F006C8917 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HK9FBL7C9X;
 				INFOPLIST_FILE = GameIconsTests/Info.plist;
@@ -390,6 +482,7 @@
 		9F8B287E1FDDEE8F006C8917 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HK9FBL7C9X;
 				INFOPLIST_FILE = GameIconsTests/Info.plist;
