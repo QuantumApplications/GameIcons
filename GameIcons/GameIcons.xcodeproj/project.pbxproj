@@ -11,7 +11,7 @@
 		9F1354111FDF2BEA007D6919 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 9F1354101FDF2BEA007D6919 /* icons */; };
 		9F1354141FDF2C0F007D6919 /* SwiftSVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F13540C1FDF2BCF007D6919 /* SwiftSVG.framework */; };
 		9F8B286F1FDDEE8F006C8917 /* GameIcons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8B28651FDDEE8F006C8917 /* GameIcons.framework */; };
-		9F8B28741FDDEE8F006C8917 /* GameIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B28731FDDEE8F006C8917 /* GameIconsTests.swift */; };
+		9F8B28741FDDEE8F006C8917 /* GameIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B28731FDDEE8F006C8917 /* GameIconTests.swift */; };
 		9F8B28761FDDEE8F006C8917 /* GameIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B28681FDDEE8F006C8917 /* GameIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,7 @@
 		9F8B28681FDDEE8F006C8917 /* GameIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameIcons.h; sourceTree = "<group>"; };
 		9F8B28691FDDEE8F006C8917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F8B286E1FDDEE8F006C8917 /* GameIconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameIconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F8B28731FDDEE8F006C8917 /* GameIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIconsTests.swift; sourceTree = "<group>"; };
+		9F8B28731FDDEE8F006C8917 /* GameIconTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIconTests.swift; sourceTree = "<group>"; };
 		9F8B28751FDDEE8F006C8917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,7 +136,7 @@
 		9F8B28721FDDEE8F006C8917 /* GameIconsTests */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B28731FDDEE8F006C8917 /* GameIconsTests.swift */,
+				9F8B28731FDDEE8F006C8917 /* GameIconTests.swift */,
 				9F8B28751FDDEE8F006C8917 /* Info.plist */,
 			);
 			path = GameIconsTests;
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8B28741FDDEE8F006C8917 /* GameIconsTests.swift in Sources */,
+				9F8B28741FDDEE8F006C8917 /* GameIconTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +422,7 @@
 		9F8B287A1FDDEE8F006C8917 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +446,7 @@
 		9F8B287B1FDDEE8F006C8917 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
