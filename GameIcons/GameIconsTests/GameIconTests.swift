@@ -30,5 +30,5 @@ class GameIconsTests: XCTestCase {
         // 3. Assert
         XCTAssertEqual(GameIcon.fission.tabBarImage.size, CGSize(width: 32, height: 32))
     }
-    
+
 }
