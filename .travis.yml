@@ -1,0 +1,5 @@
+language: objective-c
+osx_image: xcode9.2
+script: cd GameIcons && xcodebuild clean && xcodebuild build -project GameIcons.xcodeproj -scheme GameIcons -sdk iphonesimulator
+after_success:
+- bash <(curl -s https://codecov.io/bash)
