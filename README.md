@@ -9,3 +9,4 @@
 * [![Warnings](https://img.shields.io/badge/Warnings-0-brightgreen.svg)]()
 * [![codecov](https://codecov.io/gh/QuantumApplications/GameIcons/branch/master/graph/badge.svg)](https://codecov.io/gh/QuantumApplications/GameIcons)
 * [![BCH compliance](https://bettercodehub.com/edge/badge/QuantumApplications/GameIcons?branch=master)](https://bettercodehub.com/)
+* [![Codacy Badge](https://api.codacy.com/project/badge/Grade/bb85862a621d4b1b8d33823bf35fda91)](https://www.codacy.com/app/christian.michael.oberdoerfer/GameIcons?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=QuantumApplications/GameIcons&amp;utm_campaign=Badge_Grade)
