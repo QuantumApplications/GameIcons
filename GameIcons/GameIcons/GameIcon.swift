@@ -9547,7 +9547,7 @@ public enum GameIcon {
         svgParseOptions = []
         UIGraphicsBeginImageContextWithOptions(size.size, false, 1.0)
         self.layer(size: size).render(in: UIGraphicsGetCurrentContext()!)
-        let image = UIGraphicsGetImageFromCurrentImageContext() ?? UIImage()
+        let image = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         return UIImage(cgImage: image.cgImage!, scale: scale, orientation: orientation)
     }
