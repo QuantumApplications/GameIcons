@@ -6,9 +6,20 @@ disabled_rules:
 - type_body_length
 - type_name
 opt_in_rules:
+- file_header
 - cyclomatic_complexity
 excluded:
 - GameIconsTests/GeneratedMocks.swift
+
+file_header:
+  required_pattern: |
+                    \/\/
+                    \/\/  .*?\.swift
+                    \/\/  GameIcons
+                    \/\/
+                    \/\/  Created by .*? on \d{1,2}\.\d{1,2}\.\d{2}\.
+                    \/\/  Copyright © \d{4} Quantum\. All rights reserved\.
+                    \/\/
 cyclomatic_complexity: 5
 function_body_length: 15
 function_parameter_count: 4
