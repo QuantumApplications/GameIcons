@@ -9543,26 +9543,26 @@ public enum GameIcon {
         return self.layer(size: CGSize(width: size, height: size))
     }
 
-    public func image(size: CGRect, scale: CGFloat = 1.0, orientation: UIImageOrientation = .up) -> UIImage {
+    public func image(size: CGRect, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImageOrientation = .up) -> UIImage {
         svgParseOptions = []
-        UIGraphicsBeginImageContextWithOptions(size.size, false, 1.0)
+        UIGraphicsBeginImageContextWithOptions(boundingBox ?? size.size, false, 1.0)
         self.layer(size: size).render(in: UIGraphicsGetCurrentContext()!)
         let image = UIGraphicsGetImageFromCurrentImageContext()!
         UIGraphicsEndImageContext()
         return UIImage(cgImage: image.cgImage!, scale: scale, orientation: orientation)
     }
 
-    public func image(size: CGSize, scale: CGFloat = 1.0, orientation: UIImageOrientation = .up) -> UIImage {
-        return self.image(size: CGRect(x: 0, y: 0, width: size.width, height: size.height), scale: scale, orientation: orientation)
+    public func image(size: CGSize, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImageOrientation = .up) -> UIImage {
+        return self.image(size: CGRect(x: 0, y: 0, width: size.width, height: size.height), scale: scale, boundingBox: boundingBox ?? size, orientation: orientation)
     }
 
-    public func image(size: Int, scale: CGFloat = 1.0, orientation: UIImageOrientation = .up) -> UIImage {
-        return self.image(size: CGRect(x: 0, y: 0, width: size, height: size), scale: scale, orientation: orientation)
+    public func image(size: Int, scale: CGFloat = 1.0, boundingBox: Int? = nil, orientation: UIImageOrientation = .up) -> UIImage {
+        return self.image(size: CGRect(x: 0, y: 0, width: size, height: size), scale: scale, boundingBox: CGSize(width: boundingBox ?? size, height: boundingBox ?? size), orientation: orientation)
     }
 
     public var tabBarImage: UIImage {
         let scale = UIScreen.main.scale
-        return self.image(size: 32 * Int(scale), scale: scale)
+        return self.image(size: 32 * Int(scale), scale: scale, boundingBox: 40 * Int(scale))
     }
 
 }
