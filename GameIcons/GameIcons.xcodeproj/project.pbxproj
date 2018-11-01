@@ -10,10 +10,6 @@
 		9F1354041FDF0D8B007D6919 /* GameIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1354031FDF0D8B007D6919 /* GameIcon.swift */; };
 		9F1354111FDF2BEA007D6919 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 9F1354101FDF2BEA007D6919 /* icons */; };
 		9F1354141FDF2C0F007D6919 /* SwiftSVG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F13540C1FDF2BCF007D6919 /* SwiftSVG.framework */; };
-		9F27D1A22001567700A3560B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9F27D1A12001567600A3560B /* README.md */; };
-		9F27D1AA20015B7100A3560B /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9F27D1A920015B7100A3560B /* .travis.yml */; };
-		9F2F1471208D3083003E83E0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F1470208D3083003E83E0 /* .swiftlint.yml */; };
-		9F2F1473208D309D003E83E0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F1472208D309D003E83E0 /* .swiftlint.yml */; };
 		9F8B286F1FDDEE8F006C8917 /* GameIcons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8B28651FDDEE8F006C8917 /* GameIcons.framework */; };
 		9F8B28741FDDEE8F006C8917 /* GameIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B28731FDDEE8F006C8917 /* GameIconTests.swift */; };
 		9F8B28761FDDEE8F006C8917 /* GameIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B28681FDDEE8F006C8917 /* GameIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -273,10 +269,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F2F1473208D309D003E83E0 /* .swiftlint.yml in Resources */,
-				9F2F1471208D3083003E83E0 /* .swiftlint.yml in Resources */,
-				9F27D1AA20015B7100A3560B /* .travis.yml in Resources */,
-				9F27D1A22001567700A3560B /* README.md in Resources */,
 				9F1354111FDF2BEA007D6919 /* icons in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
