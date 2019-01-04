@@ -9543,7 +9543,7 @@ public enum GameIcon {
         return self.layer(size: CGSize(width: size, height: size))
     }
 
-    public func image(size: CGRect, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImageOrientation = .up) -> UIImage {
+    public func image(size: CGRect, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImage.Orientation = .up) -> UIImage {
         svgParseOptions = []
         UIGraphicsBeginImageContextWithOptions(boundingBox ?? size.size, false, 1.0)
         self.layer(size: size).render(in: UIGraphicsGetCurrentContext()!)
@@ -9552,11 +9552,11 @@ public enum GameIcon {
         return UIImage(cgImage: image.cgImage!, scale: scale, orientation: orientation)
     }
 
-    public func image(size: CGSize, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImageOrientation = .up) -> UIImage {
+    public func image(size: CGSize, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImage.Orientation = .up) -> UIImage {
         return self.image(size: CGRect(x: 0, y: 0, width: size.width, height: size.height), scale: scale, boundingBox: boundingBox ?? size, orientation: orientation)
     }
 
-    public func image(size: Int, scale: CGFloat = 1.0, boundingBox: Int? = nil, orientation: UIImageOrientation = .up) -> UIImage {
+    public func image(size: Int, scale: CGFloat = 1.0, boundingBox: Int? = nil, orientation: UIImage.Orientation = .up) -> UIImage {
         return self.image(size: CGRect(x: 0, y: 0, width: size, height: size), scale: scale, boundingBox: CGSize(width: boundingBox ?? size, height: boundingBox ?? size), orientation: orientation)
     }
 
