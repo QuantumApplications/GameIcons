@@ -11,6 +11,7 @@ import SwiftSVG
 
 public enum GameIcon {
 
+    case threedhammer
     case threedmeeple
     case threedstairs
     case abacus
@@ -168,6 +169,7 @@ public enum GameIcon {
     case alliedstar
     case alligatorclip
     case allseeingeye
+    case almond
     case ambermosquito
     case ambulance
     case americanfootballball
@@ -184,22 +186,26 @@ public enum GameIcon {
     case anatomy
     case anchor
     case ancientruins
+    case ancientscrew
     case ancientsword
     case androidmask
     case andromedachain
     case angeloutfit
     case angelwings
     case anglerfish
+    case angola
     case angryeyes
     case angularspider
     case animalhide
     case animalskull
     case ankh
     case annexation
+    case ant
     case antarctica
     case anthem
     case antibody
     case anticlockwiserotation
+    case ants
     case anubis
     case anvil
     case anvilimpact
@@ -221,9 +227,15 @@ public enum GameIcon {
     case arm
     case armadillo
     case armadillotail
+    case armbandage
+    case armordowngrade
+    case armoredboomerang
     case armoredpants
+    case armorpunch
+    case armorupgrade
     case armorvest
     case armouredshell
+    case armsling
     case arrest
     case arrowcluster
     case arrowcursor
@@ -233,10 +245,12 @@ public enum GameIcon {
     case arrowhead
     case arrowscope
     case arrowsshield
+    case arrowwings
     case arson
     case artificialhive
     case artificialintelligence
     case artilleryshell
+    case ascendingblock
     case asianlantern
     case aspergillum
     case assassinpocket
@@ -255,6 +269,7 @@ public enum GameIcon {
     case automaticsas
     case autorepair
     case awareness
+    case axeinlog
     case axeinstump
     case axeswing
     case babyface
@@ -271,19 +286,26 @@ public enum GameIcon {
     case badgnome
     case balaclava
     case balkenkreuz
+    case ballerinashoes
     case ballglow
     case ballheart
     case ballista
     case balloondog
     case balloons
+    case bamboo
+    case bamboofountain
     case banana
+    case bananabunch
     case bananapeel
+    case bananapeeled
     case bandaged
     case bandageroll
+    case bandit
     case banginggavel
     case bank
     case banknote
     case barbarian
+    case barbecue
     case barbedarrow
     case barbedcoil
     case barbednails
@@ -300,11 +322,15 @@ public enum GameIcon {
     case barricade
     case barrier
     case baseballbat
+    case baseballglove
     case basketballball
     case basketballbasket
+    case basketballjersey
+    case bastet
     case bat
     case bat2
     case batblade
+    case batmask
     case baton
     case batteredaxe
     case batteries
@@ -325,6 +351,7 @@ public enum GameIcon {
     case batwingemblem
     case bayonet
     case beachball
+    case beachbucket
     case beamsatellite
     case beamsaura
     case beamwake
@@ -348,6 +375,7 @@ public enum GameIcon {
     case belt
     case beltarmor
     case beltbuckles
+    case berriesbowl
     case berrybush
     case bestialfangs
     case beveledstar
@@ -356,6 +384,7 @@ public enum GameIcon {
     case bigegg
     case biggear
     case bigwave
+    case billedcap
     case bindle
     case binoculars
     case biohazard
@@ -364,6 +393,7 @@ public enum GameIcon {
     case birdlimb
     case birdmask
     case birdtwitter
+    case bison
     case blackball
     case blackbar
     case blackbelt
@@ -393,6 +423,8 @@ public enum GameIcon {
     case bo
     case boarensign
     case boartusks
+    case boatfishing
+    case boathorizon
     case boatpropeller
     case bodybalance
     case bodyheight
@@ -400,6 +432,7 @@ public enum GameIcon {
     case boilingbubbles
     case bolas
     case bolivia
+    case boltbomb
     case boltcutter
     case boltergun
     case bolteye
@@ -410,6 +443,8 @@ public enum GameIcon {
     case bombingrun
     case bonegnawer
     case boneknife
+    case boneknife2
+    case bonemace
     case bonsaitree
     case bookaura
     case bookcover
@@ -424,6 +459,7 @@ public enum GameIcon {
     case bootprints
     case boots
     case bootstomp
+    case booze
     case borderedshield
     case bosskey
     case bottlecap
@@ -432,6 +468,7 @@ public enum GameIcon {
     case bottlevapors
     case bottomright3darrow
     case boulderdash
+    case bouncingspring
     case bouncingsword
     case bowarrow
     case bowels
@@ -453,11 +490,13 @@ public enum GameIcon {
     case bracers
     case brain
     case brainfreeze
+    case brainleak
     case brainstem
     case brainstorm
     case braintentacle
     case brancharrow
     case brandybottle
+    case brasero
     case brasseye
     case brassknuckles
     case brazil
@@ -473,7 +512,9 @@ public enum GameIcon {
     case broaddagger
     case broadheadarrow
     case broadsword
+    case broccoli
     case brodiehelmet
+    case brokenaxe
     case brokenbone
     case brokenbottle
     case brokenheart
@@ -486,16 +527,19 @@ public enum GameIcon {
     case brokenwall
     case broom
     case brutalhelm
+    case brute
     case bubblefield
     case bubbles
     case bubblingbeam
     case bubblingbowl
     case bubblingflask
     case bud
+    case buffalohead
     case buglecall
     case bulb
     case bull
     case bulldozer
+    case bulletimpacts
     case bullets
     case bullhorns
     case bullseye
@@ -517,6 +561,7 @@ public enum GameIcon {
     case burningtree
     case burstblob
     case bus
+    case butter
     case butterfly
     case butterflyknife
     case butterflyknife2
@@ -538,6 +583,7 @@ public enum GameIcon {
     case caltrops
     case camarguecross
     case cambodia
+    case camel
     case camelhead
     case campfire
     case campingtent
@@ -559,7 +605,10 @@ public enum GameIcon {
     case cape
     case capitol
     case capricorn
+    case captainhatprofile
+    case carambola
     case caravan
+    case carbattery
     case card10clubs
     case card10diamonds
     case card10hearts
@@ -636,20 +685,24 @@ public enum GameIcon {
     case cartwheel
     case carwheel
     case cash
+    case cassowaryhead
     case castle
     case castle2
     case castleruins
     case catapult
     case catch1
+    case caterpillar
     case cauldron
     case cauldron2
     case cavalry
     case caveentrance
+    case caveman
     case cctvcamera
     case ceilingbarnacle
     case ceilinglight
     case celebrationfire
     case cementshoes
+    case centaur
     case centipede
     case chainedarrowheads
     case chainedheart
@@ -660,6 +713,7 @@ public enum GameIcon {
     case chalicedrops
     case chalkoutlinemurder
     case chameleonglyph
+    case champions
     case chargedarrow
     case chargingbull
     case chariot
@@ -673,6 +727,7 @@ public enum GameIcon {
     case cheerful
     case cheesewedge
     case cheftoque
+    case chelseaboot
     case chemicalarrow
     case chemicalbolt
     case chemicaldrop
@@ -695,11 +750,14 @@ public enum GameIcon {
     case chilipepper
     case chimney
     case chipsbag
+    case chisel
     case chocolatebar
     case choppedskull
     case church
+    case cigale
     case cigar
     case cigarette
+    case circle
     case circlecage
     case circleclaws
     case circlesparks
@@ -713,6 +771,8 @@ public enum GameIcon {
     case claws
     case clawslashes
     case clawstring
+    case claybrick
+    case claymoreexplosive
     case click
     case cloak
     case cloakdagger
@@ -721,7 +781,9 @@ public enum GameIcon {
     case closedbarbute
     case closeddoors
     case clothespin
+    case clouddownload
     case cloudring
+    case cloudupload
     case cloudyfork
     case clout
     case clover
@@ -745,6 +807,7 @@ public enum GameIcon {
     case cogsplosion
     case coilingcurl
     case coins
+    case coinspile
     case coldheart
     case coliseum
     case colombia
@@ -770,10 +833,12 @@ public enum GameIcon {
     case consolecontroller
     case contortionist
     case contract
+    case controltower
     case convergencetarget
     case conversation
     case convict
     case convince
+    case conwaylifeglider
     case cookie
     case cookingpot
     case coolspices
@@ -801,19 +866,24 @@ public enum GameIcon {
     case crackedmask
     case crackedsaber
     case crackedshield
+    case crafting
     case crags
     case crane
+    case crenelcrown
     case crenulatedshield
     case crescentblade
     case crescentblade2
     case crestedhelmet
     case cricket
+    case cricketbat
     case crimescenetape
     case crocjaws
     case crocsword
     case croissant
     case croissantspupil
+    case crookflail
     case crossbow
+    case crosscutsaw
     case crossedairflows
     case crossedaxes
     case crossedbones
@@ -860,11 +930,13 @@ public enum GameIcon {
     case cupidonarrow
     case curledleaf
     case curledtentacle
+    case curlingstone
     case curlingvines
     case curlymask
     case curlywing
     case cursedstar
     case curvyknife
+    case custodianhelmet
     case cutdiamond
     case cutlemon
     case cutpalm
@@ -883,6 +955,8 @@ public enum GameIcon {
     case daggers
     case daisy
     case damagedhouse
+    case dandelionflower
+    case dango
     case darksquad
     case dart
     case database
@@ -939,6 +1013,8 @@ public enum GameIcon {
     case directionsigns
     case directorchair
     case direwolf
+    case discgolfbag
+    case discgolfbasket
     case discussion
     case disintegrate
     case distraction
@@ -949,16 +1025,20 @@ public enum GameIcon {
     case dividedsquare
     case divingdagger
     case divinghelmet
+    case djinn
     case dna1
     case dna2
     case doctorface
     case dodge
     case dodging
     case dogbowl
+    case dolmen
     case dolphin
     case dominomask
+    case dominotiles
     case donkey
     case donut
+    case doorhandle
     case dorsalscales
     case doubled
     case doublediaphragm
@@ -975,6 +1055,7 @@ public enum GameIcon {
     case dragonfly
     case dragonhead
     case dragonhead2
+    case dragonorb
     case dragonspiral
     case drakkar
     case drakkardragon
@@ -1006,10 +1087,12 @@ public enum GameIcon {
     case duality
     case dualitymask
     case duck
+    case duckpalm
     case duel
     case duncecap
     case dungeongate
     case dungeonlight
+    case duration
     case dustcloud
     case dutchbike
     case dwarfface
@@ -1018,6 +1101,8 @@ public enum GameIcon {
     case dwennimmen
     case dynamite
     case eagleemblem
+    case eaglehead
+    case earrings
     case earthafricaeurope
     case earthamerica
     case earthasiaoceania
@@ -1040,8 +1125,12 @@ public enum GameIcon {
     case eggdefense
     case eggpod
     case egypt
+    case egyptianbird
+    case egyptianprofile
     case egyptianpyramids
     case egyptiansphinx
+    case egyptiantemple
+    case egyptianurns
     case egyptianwalk
     case eightball
     case elderberry
@@ -1084,6 +1173,7 @@ public enum GameIcon {
     case eskimo
     case eternallove
     case europeanflag
+    case evasion
     case evilbat
     case evilbook
     case evilbud
@@ -1108,6 +1198,7 @@ public enum GameIcon {
     case extralucid
     case eyeball
     case eyedropper
+    case eyelashes
     case eyeofhorus
     case eyeshield
     case eyestalk
@@ -1124,6 +1215,7 @@ public enum GameIcon {
     case falldown
     case falling
     case fallingblob
+    case fallingbomb
     case fallingboulder
     case fallingeye
     case fallingleaf
@@ -1132,6 +1224,7 @@ public enum GameIcon {
     case falloutshelter
     case famas
     case familyhouse
+    case familytree
     case fangedskull
     case fangs
     case fangscircle
@@ -1146,17 +1239,21 @@ public enum GameIcon {
     case fedora
     case feline
     case female
+    case femalelegs
     case femalevampire
     case fencer
+    case fertilizerbag
     case fetus
     case fez
     case field
     case fieldgun
+    case figurehead
     case files
     case filmprojector
     case filmspool
     case filmstrip
     case finch
+    case fingernail
     case fingerprint
     case fingerscrossed
     case fire
@@ -1171,12 +1268,14 @@ public enum GameIcon {
     case fireextinguisher
     case fireflake
     case fireflower
+    case fireplace
     case firepunch
     case fireray
     case firering
     case fireshield
     case fireshrine
     case firesilhouette
+    case firespellcast
     case firetail
     case firewave
     case fireworkrocket
@@ -1205,6 +1304,8 @@ public enum GameIcon {
     case flamedleaf
     case flamer
     case flamespin
+    case flamethrower
+    case flamethrowersoldier
     case flametunnel
     case flamingarrow
     case flamingclaw
@@ -1219,12 +1320,15 @@ public enum GameIcon {
     case flathammer
     case flatstar
     case flattire
+    case flax
     case fleshymass
     case fleurdelys
     case flexiblestar
+    case flintspark
     case flipflops
     case floatingcrystal
     case floatingghost
+    case floatingtentacles
     case flood
     case floorhatch
     case floorpolisher
@@ -1249,6 +1353,7 @@ public enum GameIcon {
     case foam
     case foamydisc
     case focusedlightning
+    case fog
     case foldedpaper
     case fomorian
     case foodchain
@@ -1257,8 +1362,10 @@ public enum GameIcon {
     case footprint
     case footsteps
     case foottrip
+    case footyfield
     case forearm
     case forest
+    case forestcamp
     case forklift
     case forwardfield
     case forwardsun
@@ -1299,6 +1406,7 @@ public enum GameIcon {
     case fullwoodbuckethandle
     case funnel
     case furboot
+    case furshirt
     case galea
     case galleon
     case gameconsole
@@ -1332,6 +1440,8 @@ public enum GameIcon {
     case gifttrap
     case gingerbreadman
     case gladius
+    case glaive
+    case glassball
     case glasscelebration
     case glassheart
     case glassshot
@@ -1370,6 +1480,7 @@ public enum GameIcon {
     case grab
     case graduatecap
     case grain
+    case granary
     case grapes
     case grapple
     case graspingclaws
@@ -1377,6 +1488,7 @@ public enum GameIcon {
     case grass
     case graveyard
     case greasetrap
+    case greatpyramid
     case greatwartank
     case greaves
     case greeksphinx
@@ -1414,6 +1526,7 @@ public enum GameIcon {
     case hand
     case hand2
     case handbag
+    case handbandage
     case handcuffed
     case handcuffs
     case handgrip
@@ -1424,6 +1537,7 @@ public enum GameIcon {
     case hanger
     case hangglider
     case hangglider2
+    case hangingsign
     case hangingspider
     case happyskull
     case harpoonchain
@@ -1441,10 +1555,14 @@ public enum GameIcon {
     case headshot
     case headshot2
     case headshot3
+    case healing
+    case healthcapsule
     case healthdecrease
     case healthincrease
     case healthnormal
+    case healthpotion
     case hearingdisabled
+    case heartbattery
     case heartbeats
     case heartbottle
     case heartburn
@@ -1476,6 +1594,7 @@ public enum GameIcon {
     case help
     case hemp
     case heptagram
+    case herbsbundle
     case hexagonalnut
     case hexes
     case hidden
@@ -1493,6 +1612,7 @@ public enum GameIcon {
     case hive
     case hobbitdwelling
     case hockey
+    case hole
     case holeladder
     case holosphere
     case holygrail
@@ -1517,6 +1637,7 @@ public enum GameIcon {
     case horsehead2
     case horseshoe
     case horus
+    case hospital
     case hospitalcross
     case hotmeal
     case hotspices
@@ -1528,7 +1649,12 @@ public enum GameIcon {
     case humancannonball
     case humanear
     case humanpyramid
+    case hummingbird
+    case hungary
+    case huntingbolas
     case huntinghorn
+    case hut
+    case hutsvillage
     case hydra
     case hydrashot
     case hypersonicbolt
@@ -1544,6 +1670,7 @@ public enum GameIcon {
     case icecreamcone
     case icecube
     case icegolem
+    case iceland
     case icepop
     case iceshield
     case iceskate
@@ -1558,6 +1685,7 @@ public enum GameIcon {
     case imbricatedarrows
     case imp
     case impactpoint
+    case imperialcrown
     case implaugh
     case implosion
     case imprisoned
@@ -1572,6 +1700,7 @@ public enum GameIcon {
     case inkswirl
     case innerself
     case insectjaws
+    case interceptorship
     case interdiction
     case interlacedtentacles
     case interleavedarrows
@@ -1598,6 +1727,7 @@ public enum GameIcon {
     case jackplug
     case jamesbondaperture
     case japan
+    case jasmine
     case jasonmask
     case jawbone
     case jawlesscyclop
@@ -1627,6 +1757,7 @@ public enum GameIcon {
     case jupiter
     case justicestar
     case kaleidoscopepearls
+    case kangaroo
     case katana
     case kenkuhead
     case kevlar
@@ -1635,6 +1766,7 @@ public enum GameIcon {
     case key2
     case keyboard
     case keyring
+    case kidneys
     case kimono
     case kindle
     case king
@@ -1651,8 +1783,12 @@ public enum GameIcon {
     case knifethrust
     case knockout
     case knot
+    case koala
+    case krakententacle
     case kusarigama
+    case labcoat
     case ladder
+    case ladle
     case ladybug
     case lamellar
     case lampreymouth
@@ -1682,7 +1818,9 @@ public enum GameIcon {
     case leadpipe
     case leafskeleton
     case leafswirl
+    case leak
     case leakyskull
+    case leatherarmor
     case leatherboot
     case leathervest
     case led
@@ -1701,7 +1839,9 @@ public enum GameIcon {
     case leveltwoadvanced
     case lever
     case liar
+    case libertywing
     case libra
+    case lifebar
     case lifebuoy
     case lifeinthebalance
     case lifesupport
@@ -1801,11 +1941,13 @@ public enum GameIcon {
     case mailedfist
     case mailshirt
     case male
+    case mammoth
     case manacles
     case mandrillhead
     case mantaray
     case mantrap
     case manualjuicer
+    case manualmeatgrinder
     case mapleleaf
     case marbles
     case marrowdrain
@@ -1837,6 +1979,7 @@ public enum GameIcon {
     case medicalpack
     case medicalpackalt
     case medicinepills
+    case medicines
     case medievalgate
     case medievalpavilion
     case meditation
@@ -1850,13 +1993,16 @@ public enum GameIcon {
     case menhir
     case mermaid
     case meshball
+    case meshnetwork
     case metalbar
     case metaldisc
     case metalhand
     case metalplate
     case metalscales
+    case metalskirt
     case meteorimpact
     case metroid
+    case metronome
     case mexico
     case microchip
     case microphone
@@ -1865,15 +2011,19 @@ public enum GameIcon {
     case middlearrow
     case midnightclaw
     case mightyboosh
+    case mightyforce
     case mightyspanner
     case militaryambulance
     case militaryfort
     case milkcarton
     case milleniumkey
+    case mimicchest
     case mineexplosion
     case minefield
+    case miner
     case mineralheart
     case minerals
+    case minetruck
     case minewagon
     case minigun
     case mining
@@ -1889,10 +2039,12 @@ public enum GameIcon {
     case missileswarm
     case mite
     case mitealt
+    case moai
     case moderncity
     case moebiusstar
     case moebiustrefoil
     case moebiustriangle
+    case mokapot
     case molecule
     case molecule2
     case molotov
@@ -1904,8 +2056,10 @@ public enum GameIcon {
     case monkface
     case monowheelrobot
     case monstergrasp
+    case monumentvalley
     case moon
     case moonclaws
+    case moonorbit
     case morbidhumour
     case morguefeet
     case morphball
@@ -1934,6 +2088,9 @@ public enum GameIcon {
     case mushroomcloud
     case mushroomgills
     case mushroomhouse
+    case mushrooms
+    case musicalkeyboard
+    case musicalnotes
     case musicalscore
     case musicspell
     case musket
@@ -1973,8 +2130,11 @@ public enum GameIcon {
     case nuclearplant
     case nunchaku
     case nunface
+    case nursefemale
+    case nursemale
     case oak
     case oakleaf
+    case oasis
     case oat
     case obelisk
     case obrick
@@ -1984,6 +2144,7 @@ public enum GameIcon {
     case octogonaleye
     case octoman
     case octopus
+    case oden
     case offshoreplatform
     case ogre
     case oildrum
@@ -2020,7 +2181,9 @@ public enum GameIcon {
     case orchead
     case ore
     case organigram
+    case ostrich
     case ouroboros
+    case outbackhat
     case overdose
     case overdrive
     case overhead
@@ -2047,6 +2210,7 @@ public enum GameIcon {
     case panzerfaust
     case paper
     case paperarrow
+    case paperboat
     case paperbomb
     case paperclip
     case paperlantern
@@ -2056,11 +2220,13 @@ public enum GameIcon {
     case paperwindmill
     case papyrus
     case parachute
+    case paraguay
     case paranoia
     case parasaurolophus
     case parmecia
     case parrothead
     case partyflags
+    case pathdistance
     case pathtile
     case pauldrons
     case pausebutton
@@ -2070,7 +2236,9 @@ public enum GameIcon {
     case pawn
     case pawprint
     case pawprint2
+    case paymoney
     case pc
+    case peach
     case peaks
     case peanut
     case pear
@@ -2108,6 +2276,7 @@ public enum GameIcon {
     case phrygiancap
     case pianokeys
     case pickelhaube
+    case pickofdestiny
     case pieceskull
     case piechart
     case piercedbody
@@ -2118,6 +2287,7 @@ public enum GameIcon {
     case pigface
     case piggybank
     case pikeman
+    case pilgrimhat
     case pill
     case pilldrop
     case pillow
@@ -2129,6 +2299,7 @@ public enum GameIcon {
     case pingpongbat
     case pipes
     case piranha
+    case piratecannon
     case piratecaptain
     case piratecoat
     case pirateflag
@@ -2143,12 +2314,15 @@ public enum GameIcon {
     case pizzaslice
     case plaguedoctorprofile
     case plainarrow
+    case plaincircle
     case plaindagger
+    case plainsquare
     case planetcore
     case planewing
     case planks
     case plantsandanimals
     case plasmabolt
+    case plasticduck
     case plastron
     case plateclaw
     case platform
@@ -2174,10 +2348,12 @@ public enum GameIcon {
     case pokerhand
     case polarbear
     case policebadge
+    case policecar
     case policeofficerhead
     case policetarget
     case pollendust
     case poloshirt
+    case poncho
     case pooldive
     case popcorn
     case popecrown
@@ -2195,6 +2371,7 @@ public enum GameIcon {
     case powerbutton
     case powergenerator
     case powerlightning
+    case powerring
     case prayer
     case prayerbeads
     case prayingmantis
@@ -2202,6 +2379,8 @@ public enum GameIcon {
     case prettyfangs
     case pretzel
     case pricetag
+    case primitivenecklace
+    case primitivetorch
     case prisoner
     case private1
     case private1firstclass
@@ -2218,11 +2397,13 @@ public enum GameIcon {
     case pulleyhook
     case pulse
     case pummeled
+    case pumpkin
     case pumpkinlantern
     case pumpkinmask
     case punch
     case punchblast
     case puppet
+    case purpletentacle
     case push
     case puzzle
     case pyromaniac
@@ -2239,6 +2420,7 @@ public enum GameIcon {
     case radardish
     case radarsweep
     case radialbalance
+    case radiations
     case radioactive
     case radiotower
     case raggedwound
@@ -2251,11 +2433,13 @@ public enum GameIcon {
     case rallythetroops
     case ram
     case ram2
+    case ramprofile
     case rank1
     case rank2
     case rank3
     case rapidsharearrow
     case raspberry
+    case rat
     case rattlesnake
     case raven
     case raygun
@@ -2264,11 +2448,14 @@ public enum GameIcon {
     case read
     case reaperscythe
     case rearaura
+    case receivemoney
     case recycle
+    case reed
     case refinery
     case regeneration
     case relationshipbounds
     case relicblade
+    case reloadgunbarrel
     case reptiletail
     case resize
     case resonance
@@ -2291,6 +2478,7 @@ public enum GameIcon {
     case ringingalarm
     case ringingbell
     case ringmaster
+    case ringmould
     case riotshield
     case river
     case road
@@ -2302,12 +2490,15 @@ public enum GameIcon {
     case robinhoodhat
     case robotantennas
     case robotgolem
+    case robothelmet
     case robotleg
     case rock
     case rock2
     case rocket
     case rocketflight
     case rocketthruster
+    case rockingchair
+    case rodofasclepius
     case rogue
     case rolledcloth
     case rollingbomb
@@ -2324,11 +2515,13 @@ public enum GameIcon {
     case rose
     case roughwound
     case roundbottomflask
+    case roundknob
     case roundshield
     case roundsilo
     case roundstar
     case roundstrawbale
     case roundstruck
+    case roundtable
     case royallove
     case rss
     case rss2
@@ -2339,32 +2532,42 @@ public enum GameIcon {
     case runningninja
     case runningshoe
     case rupee
+    case rustysword
+    case saberandpistol
     case saberschoc
     case saberslash
     case sabertooth
+    case sabertoothedcathead
     case sacrificialdagger
     case sadcrab
     case saddle
     case safetypin
     case sagittarius
     case sai
+    case sail
     case sailboat
     case saintbasilcathedral
     case saiyansuit
     case salamander
     case salmon
+    case saloon
     case saloondoors
     case saltshaker
     case samuraihelmet
     case sandcastle
     case sandsnake
     case sandsoftime
+    case sandwich
     case saphir
     case sarcophagus
     case sasquatch
+    case satellitecommunication
     case sattelite
     case sauropodhead
+    case sausage
+    case sausagesribbon
     case save
+    case savearrow
     case sawclaw
     case sawedoffshotgun
     case saxophone
@@ -2384,6 +2587,7 @@ public enum GameIcon {
     case scorpio
     case scorpion
     case scorpiontail
+    case scoutship
     case screaming
     case screenimpact
     case screwdriver
@@ -2398,6 +2602,7 @@ public enum GameIcon {
     case seatedmouse
     case secretbook
     case secretdoor
+    case seedling
     case select
     case selflove
     case sellcard
@@ -2406,6 +2611,7 @@ public enum GameIcon {
     case sentrygun
     case sergeant
     case serratedslash
+    case settingsknobs
     case sevenpointedstar
     case severedhand
     case sewedshell
@@ -2416,7 +2622,9 @@ public enum GameIcon {
     case shakinghands
     case shamblingmound
     case shamblingzombie
+    case shamrock
     case shardsword
+    case sharkbite
     case sharkfin
     case sharkjaws
     case sharpaxe
@@ -2463,6 +2671,7 @@ public enum GameIcon {
     case shoulderscales
     case shouting
     case shower
+    case shrimp
     case shrug
     case shuriken
     case shuriken2
@@ -2476,6 +2685,8 @@ public enum GameIcon {
     case sightdisabled
     case silence
     case silenced
+    case silex
+    case sinagot
     case sing
     case sinkingship
     case sinkingtrap
@@ -2500,19 +2711,24 @@ public enum GameIcon {
     case skullsignet
     case skullslices
     case skullstaff
+    case skullwithsyringe
     case slalom
     case slap
     case slashedshield
     case slaverywhip
     case sleepy
     case sleevelessjacket
+    case sleevelesstop
     case slicedbread
+    case slicedmushroom
     case slicingarrow
     case slime
+    case sling
     case slingshot
     case slowblob
     case sly
     case smallfire
+    case smart
     case smartphone
     case smartphone2
     case smasharrows
@@ -2527,6 +2743,7 @@ public enum GameIcon {
     case snake
     case snakebite
     case snakeegg
+    case snakespiral
     case snaketongue
     case snaketotem
     case snatch
@@ -2546,6 +2763,7 @@ public enum GameIcon {
     case sofa
     case solarpower
     case solarsystem
+    case solartime
     case solidleaf
     case sombrero
     case sonicboom
@@ -2577,6 +2795,7 @@ public enum GameIcon {
     case speaker
     case speakeroff
     case spearfeather
+    case spearfishing
     case spearhook
     case spears
     case spectaclelenses
@@ -2596,6 +2815,7 @@ public enum GameIcon {
     case spikedball
     case spikedbat
     case spikedcollar
+    case spikeddragonhead
     case spikedfence
     case spikedhalo
     case spikedmace
@@ -2634,7 +2854,9 @@ public enum GameIcon {
     case splitbody
     case splitcross
     case splurt
+    case spookyhouse
     case spoon
+    case sportmedal
     case spotedflower
     case spottedarrowhead
     case spottedbug
@@ -2642,11 +2864,13 @@ public enum GameIcon {
     case spottedwound
     case spoutnik
     case spray
+    case spring
     case sprint
     case sprout
     case sproutdisc
     case spy
     case spyglass
+    case square
     case squarebottle
     case squib
     case squid
@@ -2658,10 +2882,13 @@ public enum GameIcon {
     case staghead
     case stahlhelm
     case stairs
+    case stairsgoal
     case stakehammer
+    case stakesfence
     case stalactites
     case stalagtite
     case standingpotion
+    case staraltar
     case starcycle
     case starfighter
     case starformation
@@ -2672,13 +2899,16 @@ public enum GameIcon {
     case starshuriken
     case starskull
     case starsstack
+    case starstruck
     case starswirl
     case staryu
     case static1
     case static1guard
     case static1waves
     case steak
+    case stealthbomber
     case steam
+    case steamblast
     case steamlocomotive
     case steampunkgoggles
     case steelclaws
@@ -2690,13 +2920,16 @@ public enum GameIcon {
     case stegosaurusscales
     case stethoscope
     case steyraug
+    case stickframe
     case stickgrenade
     case stickingplaster
     case sticksplitting
+    case stickyboot
     case stigmata
     case stiletto
     case stiletto2
     case stitchedwound
+    case stockpiles
     case stomach
     case stomp
     case stomptornado
@@ -2714,6 +2947,7 @@ public enum GameIcon {
     case stonethrone
     case stonetower
     case stonewall
+    case stonewheel
     case stopsign
     case stopwatch
     case stopwatch2
@@ -2733,11 +2967,13 @@ public enum GameIcon {
     case stumpregrowth
     case stungrenade
     case submarine
+    case subway
     case suckeredtentacle
     case sugarcane
     case suicide
     case suitcase
     case suits
+    case summits
     case sun
     case sunbeams
     case suncloud
@@ -2760,6 +2996,7 @@ public enum GameIcon {
     case suspicious
     case sverdifjell
     case swallow
+    case swallow2
     case swallower
     case swamp
     case swampbat
@@ -2776,6 +3013,7 @@ public enum GameIcon {
     case switzerland
     case swordaltar
     case swordarray
+    case swordbrandish
     case swordbreak
     case swordclash
     case swordhilt
@@ -2799,6 +3037,7 @@ public enum GameIcon {
     case tacos
     case takemymoney
     case talk
+    case tallbridge
     case tangerine
     case tank
     case tanktread
@@ -2813,12 +3052,14 @@ public enum GameIcon {
     case taurus
     case tbrick
     case teacher
+    case teamidea
     case teapot
     case teapotleaves
     case tearing
     case teartracks
     case tec9
     case technoheart
+    case teepipe
     case telefrag
     case telepathy
     case teleport
@@ -2827,8 +3068,10 @@ public enum GameIcon {
     case templareye
     case templarheart
     case templarshield
+    case temporaryshield
     case temptation
     case tennisball
+    case tenniscourt
     case tennisracket
     case tensionsnowflake
     case tentacleheart
@@ -2840,6 +3083,7 @@ public enum GameIcon {
     case teslacoil
     case teslaturret
     case testtubes
+    case texas
     case theatercurtains
     case thermometercold
     case thermometerhot
@@ -2855,10 +3099,12 @@ public enum GameIcon {
     case thornytentacle
     case thornyvine
     case threeburningballs
+    case threefriends
     case threekeys
     case threeleaves
     case threepointedshuriken
     case throneking
+    case throwingball
     case throwncharcoal
     case throwndaggers
     case thrownknife
@@ -2871,6 +3117,7 @@ public enum GameIcon {
     case thunderblade
     case thunderskull
     case thunderstruck
+    case thwomp
     case tiara
     case tick
     case ticket
@@ -2932,6 +3179,7 @@ public enum GameIcon {
     case treebeehive
     case treebranch
     case treeface
+    case treegrowth
     case treeswing
     case trefoillily
     case trefoilshuriken
@@ -2952,6 +3200,7 @@ public enum GameIcon {
     case triplebeak
     case tripleclaws
     case triplecorn
+    case triplegate
     case triplelock
     case tripleneedle
     case tripleplier
@@ -2977,14 +3226,17 @@ public enum GameIcon {
     case trumpet
     case trumpetflag
     case tshirt
+    case tumbleweed
     case tumor
     case tumulus
     case tunepitch
     case turban
+    case turbine
     case turd
     case turret
     case turtle
     case turtleshell
+    case tusksflag
     case tv
     case tvremote
     case tvtower
@@ -3001,8 +3253,10 @@ public enum GameIcon {
     case udder
     case ufo
     case ultrasound
+    case uluru
     case umbrella
     case umbrellabayonet
+    case unbalanced
     case uncertainty
     case underhand
     case underwear
@@ -3027,6 +3281,7 @@ public enum GameIcon {
     case uzi
     case vacuumcleaner
     case valley
+    case valve
     case vampirecape
     case vampiredracula
     case vandammesplit
@@ -3035,6 +3290,8 @@ public enum GameIcon {
     case velociraptor
     case velociraptortracks
     case vendingmachine
+    case venezuela
+    case venusofwillendorf
     case verticalbanner
     case verticalflip
     case vial
@@ -3065,15 +3322,21 @@ public enum GameIcon {
     case voodoodoll
     case vortex
     case vote
+    case vrheadset
     case vulture
+    case vuvuzelas
     case walk
     case walkietalkie
     case walkingboot
     case walkingscout
+    case walkingturret
+    case wallet
     case walllight
     case walrushead
     case waltherppk
+    case wantedreward
     case waraxe
+    case warbonnet
     case warlockeye
     case warlockhood
     case warpick
@@ -3082,14 +3345,18 @@ public enum GameIcon {
     case watch
     case watchtower
     case waterbolt
+    case waterbottle
+    case waterdivinerstick
     case waterdrop
     case waterfall
     case waterfountain
+    case watergallon
     case wateringcan
     case watermelon
     case watersplash
     case wavecrest
     case wavestrike
+    case wavesurfer
     case wavychains
     case wavyitinerary
     case waxseal
@@ -3124,6 +3391,7 @@ public enum GameIcon {
     case windowbars
     case windpump
     case windslap
+    case windsock
     case windturbine
     case windystripes
     case winebottle
@@ -3136,7 +3404,9 @@ public enum GameIcon {
     case wingedsword
     case wingfoot
     case wintergloves
+    case winterhat
     case wireframeglobe
+    case wisdom
     case witchface
     case witchflight
     case wizardface
@@ -3148,6 +3418,7 @@ public enum GameIcon {
     case womanelfface
     case woodaxe
     case woodcabin
+    case woodcanoe
     case woodclub
     case woodenclogs
     case woodencrate
@@ -3158,6 +3429,7 @@ public enum GameIcon {
     case woodenpier
     case woodensign
     case woodpile
+    case woodstick
     case wool
     case world
     case wormmouth
@@ -3171,18 +3443,22 @@ public enum GameIcon {
     case wyvern
     case xylophone
     case yinyang
+    case zatgun
     case zbrick
     case zebrashield
     case zeppelin
     case zeussword
     case zigarrow
     case zigzagcage
+    case zigzaghieroglyph
     case zigzagleaf
     case zigzagtune
     case zipper
 
     var relativePath: String {
         switch self {
+        case .threedhammer:
+        return "delapouite/originals/svg/3d-hammer.svg"
         case .threedmeeple:
             return "delapouite/originals/svg/3d-meeple.svg"
         case .threedstairs:
@@ -3497,12 +3773,14 @@ public enum GameIcon {
             return "lorc/originals/svg/alligator-clip.svg"
         case .allseeingeye:
             return "delapouite/originals/svg/all-seeing-eye.svg"
+        case .almond:
+            return "delapouite/originals/svg/almond.svg"
         case .ambermosquito:
             return "delapouite/originals/svg/amber-mosquito.svg"
         case .ambulance:
             return "delapouite/originals/svg/ambulance.svg"
         case .americanfootballball:
-            return "delapouite/sports/svg/american-football-ball.svg"
+            return "delapouite/originals/svg/american-football-ball.svg"
         case .americanfootballhelmet:
             return "delapouite/originals/svg/american-football-helmet.svg"
         case .americanshield:
@@ -3529,6 +3807,8 @@ public enum GameIcon {
             return "lorc/originals/svg/anchor.svg"
         case .ancientruins:
             return "delapouite/originals/svg/ancient-ruins.svg"
+        case .ancientscrew:
+            return "delapouite/originals/svg/ancient-screw.svg"
         case .ancientsword:
             return "delapouite/originals/svg/ancient-sword.svg"
         case .androidmask:
@@ -3541,6 +3821,8 @@ public enum GameIcon {
             return "lorc/originals/svg/angel-wings.svg"
         case .anglerfish:
             return "lorc/originals/svg/angler-fish.svg"
+        case .angola:
+            return "delapouite/originals/svg/angola.svg"
         case .angryeyes:
             return "delapouite/originals/svg/angry-eyes.svg"
         case .angularspider:
@@ -3553,6 +3835,8 @@ public enum GameIcon {
             return "lorc/originals/svg/ankh.svg"
         case .annexation:
             return "cathelineau/originals/svg/annexation.svg"
+        case .ant:
+            return "delapouite/originals/svg/ant.svg"
         case .antarctica:
             return "delapouite/originals/svg/antarctica.svg"
         case .anthem:
@@ -3560,7 +3844,9 @@ public enum GameIcon {
         case .antibody:
             return "delapouite/originals/svg/antibody.svg"
         case .anticlockwiserotation:
-            return "delapouite/gui/svg/anticlockwise-rotation.svg"
+            return "delapouite/originals/svg/anticlockwise-rotation.svg"
+        case .ants:
+            return "delapouite/originals/svg/ants.svg"
         case .anubis:
             return "delapouite/originals/svg/anubis.svg"
         case .anvil:
@@ -3578,7 +3864,7 @@ public enum GameIcon {
         case .aquarium:
             return "delapouite/originals/svg/aquarium.svg"
         case .aquarius:
-            return "delapouite/zodiac/svg/aquarius.svg"
+            return "delapouite/originals/svg/aquarius.svg"
         case .aqueduct:
             return "delapouite/originals/svg/aqueduct.svg"
         case .arabicdoor:
@@ -3596,25 +3882,37 @@ public enum GameIcon {
         case .arena:
             return "sbed/originals/svg/arena.svg"
         case .aries:
-            return "delapouite/zodiac/svg/aries.svg"
+            return "delapouite/originals/svg/aries.svg"
         case .arm:
             return "delapouite/originals/svg/arm.svg"
         case .armadillo:
             return "delapouite/originals/svg/armadillo.svg"
         case .armadillotail:
             return "lorc/originals/svg/armadillo-tail.svg"
+        case .armbandage:
+            return "delapouite/originals/svg/arm-bandage.svg"
+        case .armordowngrade:
+            return "delapouite/originals/svg/armor-downgrade.svg"
+        case .armoredboomerang:
+            return "delapouite/originals/svg/armored-boomerang.svg"
         case .armoredpants:
             return "irongamer/originals/svg/armored-pants.svg"
+        case .armorpunch:
+            return "delapouite/originals/svg/armor-punch.svg"
+        case .armorupgrade:
+            return "delapouite/originals/svg/armor-upgrade.svg"
         case .armorvest:
             return "lorc/originals/svg/armor-vest.svg"
         case .armouredshell:
             return "lorc/originals/svg/armoured-shell.svg"
+        case .armsling:
+            return "delapouite/originals/svg/arm-sling.svg"
         case .arrest:
             return "delapouite/originals/svg/arrest.svg"
         case .arrowcluster:
             return "lorc/originals/svg/arrow-cluster.svg"
         case .arrowcursor:
-            return "delapouite/gui/svg/arrow-cursor.svg"
+            return "delapouite/originals/svg/arrow-cursor.svg"
         case .arrowdunk:
             return "lorc/originals/svg/arrow-dunk.svg"
         case .arrowed:
@@ -3627,6 +3925,8 @@ public enum GameIcon {
             return "lorc/originals/svg/arrow-scope.svg"
         case .arrowsshield:
             return "lorc/originals/svg/arrows-shield.svg"
+        case .arrowwings:
+            return "delapouite/originals/svg/arrow-wings.svg"
         case .arson:
             return "lorc/originals/svg/arson.svg"
         case .artificialhive:
@@ -3635,6 +3935,8 @@ public enum GameIcon {
             return "lord-berandas/originals/svg/artificial-intelligence.svg"
         case .artilleryshell:
             return "quoting/originals/svg/artillery-shell.svg"
+        case .ascendingblock:
+            return "delapouite/originals/svg/ascending-block.svg"
         case .asianlantern:
             return "delapouite/originals/svg/asian-lantern.svg"
         case .aspergillum:
@@ -3671,6 +3973,8 @@ public enum GameIcon {
             return "lorc/originals/svg/auto-repair.svg"
         case .awareness:
             return "lorc/originals/svg/awareness.svg"
+        case .axeinlog:
+            return "delapouite/originals/svg/axe-in-log.svg"
         case .axeinstump:
             return "lorc/originals/svg/axe-in-stump.svg"
         case .axeswing:
@@ -3703,6 +4007,8 @@ public enum GameIcon {
             return "skoll/originals/svg/balaclava.svg"
         case .balkenkreuz:
             return "skoll/originals/svg/balkenkreuz.svg"
+        case .ballerinashoes:
+            return "delapouite/originals/svg/ballerina-shoes.svg"
         case .ballglow:
             return "lorc/originals/svg/ball-glow.svg"
         case .ballheart:
@@ -3713,14 +4019,24 @@ public enum GameIcon {
             return "delapouite/originals/svg/balloon-dog.svg"
         case .balloons:
             return "lorc/originals/svg/balloons.svg"
+        case .bamboo:
+            return "delapouite/originals/svg/bamboo.svg"
+        case .bamboofountain:
+            return "delapouite/originals/svg/bamboo-fountain.svg"
         case .banana:
             return "delapouite/originals/svg/banana.svg"
+        case .bananabunch:
+            return "delapouite/originals/svg/banana-bunch.svg"
         case .bananapeel:
             return "delapouite/originals/svg/banana-peel.svg"
+        case .bananapeeled:
+            return "delapouite/originals/svg/banana-peeled.svg"
         case .bandaged:
             return "lorc/originals/svg/bandaged.svg"
         case .bandageroll:
             return "lorc/originals/svg/bandage-roll.svg"
+        case .bandit:
+            return "delapouite/originals/svg/bandit.svg"
         case .banginggavel:
             return "delapouite/originals/svg/banging-gavel.svg"
         case .bank:
@@ -3729,6 +4045,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/banknote.svg"
         case .barbarian:
             return "delapouite/originals/svg/barbarian.svg"
+        case .barbecue:
+            return "delapouite/originals/svg/barbecue.svg"
         case .barbedarrow:
             return "lorc/originals/svg/barbed-arrow.svg"
         case .barbedcoil:
@@ -3760,17 +4078,25 @@ public enum GameIcon {
         case .barrier:
             return "delapouite/originals/svg/barrier.svg"
         case .baseballbat:
-            return "delapouite/sports/svg/baseball-bat.svg"
+            return "delapouite/originals/svg/baseball-bat.svg"
+        case .baseballglove:
+            return "delapouite/originals/svg/baseball-glove.svg"
         case .basketballball:
-            return "delapouite/sports/svg/basketball-ball.svg"
+            return "delapouite/originals/svg/basketball-ball.svg"
         case .basketballbasket:
-            return "delapouite/sports/svg/basketball-basket.svg"
+            return "delapouite/originals/svg/basketball-basket.svg"
+        case .basketballjersey:
+            return "delapouite/originals/svg/basketball-jersey.svg"
+        case .bastet:
+            return "delapouite/originals/svg/bastet.svg"
         case .bat:
             return "delapouite/originals/svg/bat.svg"
         case .bat2:
             return "skoll/originals/svg/bat.svg"
         case .batblade:
             return "lorc/originals/svg/bat-blade.svg"
+        case .batmask:
+            return "delapouite/originals/svg/bat-mask.svg"
         case .baton:
             return "skoll/originals/svg/baton.svg"
         case .batteredaxe:
@@ -3811,6 +4137,8 @@ public enum GameIcon {
             return "skoll/originals/svg/bayonet.svg"
         case .beachball:
             return "delapouite/originals/svg/beach-ball.svg"
+        case .beachbucket:
+            return "delapouite/originals/svg/beach-bucket.svg"
         case .beamsatellite:
             return "delapouite/originals/svg/beam-satellite.svg"
         case .beamsaura:
@@ -3857,6 +4185,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/belt-armor.svg"
         case .beltbuckles:
             return "lorc/originals/svg/belt-buckles.svg"
+        case .berriesbowl:
+            return "delapouite/originals/svg/berries-bowl.svg"
         case .berrybush:
             return "delapouite/originals/svg/berry-bush.svg"
         case .bestialfangs:
@@ -3873,6 +4203,8 @@ public enum GameIcon {
             return "darkzaitzev/originals/svg/big-gear.svg"
         case .bigwave:
             return "lorc/originals/svg/big-wave.svg"
+        case .billedcap:
+            return "delapouite/originals/svg/billed-cap.svg"
         case .bindle:
             return "delapouite/originals/svg/bindle.svg"
         case .binoculars:
@@ -3889,6 +4221,8 @@ public enum GameIcon {
             return "lorc/originals/svg/bird-mask.svg"
         case .birdtwitter:
             return "lorc/originals/svg/bird-twitter.svg"
+        case .bison:
+            return "delapouite/originals/svg/bison.svg"
         case .blackball:
             return "lorc/originals/svg/blackball.svg"
         case .blackbar:
@@ -3947,6 +4281,10 @@ public enum GameIcon {
             return "cathelineau/originals/svg/boar-ensign.svg"
         case .boartusks:
             return "lorc/originals/svg/boar-tusks.svg"
+        case .boatfishing:
+            return "delapouite/originals/svg/boat-fishing.svg"
+        case .boathorizon:
+            return "delapouite/originals/svg/boat-horizon.svg"
         case .boatpropeller:
             return "delapouite/originals/svg/boat-propeller.svg"
         case .bodybalance:
@@ -3961,6 +4299,8 @@ public enum GameIcon {
             return "lorc/originals/svg/bolas.svg"
         case .bolivia:
             return "delapouite/originals/svg/bolivia.svg"
+        case .boltbomb:
+            return "delapouite/originals/svg/bolt-bomb.svg"
         case .boltcutter:
             return "delapouite/originals/svg/bolt-cutter.svg"
         case .boltergun:
@@ -3980,7 +4320,11 @@ public enum GameIcon {
         case .bonegnawer:
             return "lorc/originals/svg/bone-gnawer.svg"
         case .boneknife:
+            return "delapouite/originals/svg/bone-knife.svg"
+        case .boneknife2:
             return "lorc/originals/svg/bone-knife.svg"
+        case .bonemace:
+            return "delapouite/originals/svg/bone-mace.svg"
         case .bonsaitree:
             return "delapouite/originals/svg/bonsai-tree.svg"
         case .bookaura:
@@ -4009,6 +4353,8 @@ public enum GameIcon {
             return "lorc/originals/svg/boots.svg"
         case .bootstomp:
             return "lorc/originals/svg/boot-stomp.svg"
+        case .booze:
+            return "delapouite/originals/svg/booze.svg"
         case .borderedshield:
             return "lorc/originals/svg/bordered-shield.svg"
         case .bosskey:
@@ -4025,6 +4371,8 @@ public enum GameIcon {
             return "lorc/originals/svg/bottom-right-3d-arrow.svg"
         case .boulderdash:
             return "delapouite/originals/svg/boulder-dash.svg"
+        case .bouncingspring:
+            return "delapouite/originals/svg/bouncing-spring.svg"
         case .bouncingsword:
             return "lorc/originals/svg/bouncing-sword.svg"
         case .bowarrow:
@@ -4038,7 +4386,7 @@ public enum GameIcon {
         case .bowieknife2:
             return "skoll/originals/svg/bowie-knife.svg"
         case .bowlingpin:
-            return "delapouite/sports/svg/bowling-pin.svg"
+            return "delapouite/originals/svg/bowling-pin.svg"
         case .bowlingpropulsion:
             return "lorc/originals/svg/bowling-propulsion.svg"
         case .bowlingstrike:
@@ -4067,6 +4415,8 @@ public enum GameIcon {
             return "lorc/originals/svg/brain.svg"
         case .brainfreeze:
             return "lorc/originals/svg/brain-freeze.svg"
+        case .brainleak:
+            return "delapouite/originals/svg/brain-leak.svg"
         case .brainstem:
             return "lorc/originals/svg/brain-stem.svg"
         case .brainstorm:
@@ -4077,6 +4427,8 @@ public enum GameIcon {
             return "lorc/originals/svg/branch-arrow.svg"
         case .brandybottle:
             return "lorc/originals/svg/brandy-bottle.svg"
+        case .brasero:
+            return "delapouite/originals/svg/brasero.svg"
         case .brasseye:
             return "lorc/originals/svg/brass-eye.svg"
         case .brassknuckles:
@@ -4107,8 +4459,12 @@ public enum GameIcon {
             return "lorc/originals/svg/broadhead-arrow.svg"
         case .broadsword:
             return "lorc/originals/svg/broadsword.svg"
+        case .broccoli:
+            return "delapouite/originals/svg/broccoli.svg"
         case .brodiehelmet:
             return "skoll/originals/svg/brodie-helmet.svg"
+        case .brokenaxe:
+            return "delapouite/originals/svg/broken-axe.svg"
         case .brokenbone:
             return "lorc/originals/svg/broken-bone.svg"
         case .brokenbottle:
@@ -4133,6 +4489,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/broom.svg"
         case .brutalhelm:
             return "carl-olsen/originals/svg/brutal-helm.svg"
+        case .brute:
+            return "delapouite/originals/svg/brute.svg"
         case .bubblefield:
             return "lorc/originals/svg/bubble-field.svg"
         case .bubbles:
@@ -4145,6 +4503,8 @@ public enum GameIcon {
             return "lorc/originals/svg/bubbling-flask.svg"
         case .bud:
             return "lorc/originals/svg/bud.svg"
+        case .buffalohead:
+            return "delapouite/originals/svg/buffalo-head.svg"
         case .buglecall:
             return "lorc/originals/svg/bugle-call.svg"
         case .bulb:
@@ -4153,6 +4513,8 @@ public enum GameIcon {
             return "lorc/originals/svg/bull.svg"
         case .bulldozer:
             return "delapouite/originals/svg/bulldozer.svg"
+        case .bulletimpacts:
+            return "delapouite/originals/svg/bullet-impacts.svg"
         case .bullets:
             return "lorc/originals/svg/bullets.svg"
         case .bullhorns:
@@ -4195,6 +4557,8 @@ public enum GameIcon {
             return "lorc/originals/svg/burst-blob.svg"
         case .bus:
             return "delapouite/originals/svg/bus.svg"
+        case .butter:
+            return "delapouite/originals/svg/butter.svg"
         case .butterfly:
             return "lorc/originals/svg/butterfly.svg"
         case .butterflyknife:
@@ -4237,6 +4601,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/camargue-cross.svg"
         case .cambodia:
             return "delapouite/originals/svg/cambodia.svg"
+        case .camel:
+            return "delapouite/originals/svg/camel.svg"
         case .camelhead:
             return "delapouite/originals/svg/camel-head.svg"
         case .campfire:
@@ -4246,7 +4612,7 @@ public enum GameIcon {
         case .cancel:
             return "sbed/originals/svg/cancel.svg"
         case .cancer:
-            return "delapouite/zodiac/svg/cancer.svg"
+            return "delapouite/originals/svg/cancer.svg"
         case .candlebright:
             return "lorc/originals/svg/candlebright.svg"
         case .candleflame:
@@ -4278,9 +4644,15 @@ public enum GameIcon {
         case .capitol:
             return "lorc/originals/svg/capitol.svg"
         case .capricorn:
-            return "delapouite/zodiac/svg/capricorn.svg"
+            return "delapouite/originals/svg/capricorn.svg"
+        case .captainhatprofile:
+            return "delapouite/originals/svg/captain-hat-profile.svg"
+        case .carambola:
+            return "delapouite/originals/svg/carambola.svg"
         case .caravan:
             return "delapouite/originals/svg/caravan.svg"
+        case .carbattery:
+            return "delapouite/originals/svg/car-battery.svg"
         case .card10clubs:
             return "aussiesim/cards/svg/card-10-clubs.svg"
         case .card10diamonds:
@@ -4433,6 +4805,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/car-wheel.svg"
         case .cash:
             return "lorc/originals/svg/cash.svg"
+        case .cassowaryhead:
+            return "delapouite/originals/svg/cassowary-head.svg"
         case .castle:
             return "delapouite/originals/svg/castle.svg"
         case .castle2:
@@ -4443,6 +4817,8 @@ public enum GameIcon {
             return "heavenly-dog/originals/svg/catapult.svg"
         case .catch1:
             return "darkzaitzev/originals/svg/catch.svg"
+        case .caterpillar:
+            return "delapouite/originals/svg/caterpillar.svg"
         case .cauldron:
             return "darkzaitzev/originals/svg/cauldron.svg"
         case .cauldron2:
@@ -4451,6 +4827,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/cavalry.svg"
         case .caveentrance:
             return "delapouite/originals/svg/cave-entrance.svg"
+        case .caveman:
+            return "delapouite/originals/svg/caveman.svg"
         case .cctvcamera:
             return "delapouite/originals/svg/cctv-camera.svg"
         case .ceilingbarnacle:
@@ -4461,6 +4839,8 @@ public enum GameIcon {
             return "lorc/originals/svg/celebration-fire.svg"
         case .cementshoes:
             return "skoll/originals/svg/cement-shoes.svg"
+        case .centaur:
+            return "delapouite/originals/svg/centaur.svg"
         case .centipede:
             return "lorc/originals/svg/centipede.svg"
         case .chainedarrowheads:
@@ -4481,6 +4861,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/chalk-outline-murder.svg"
         case .chameleonglyph:
             return "darkzaitzev/originals/svg/chameleon-glyph.svg"
+        case .champions:
+            return "delapouite/originals/svg/champions.svg"
         case .chargedarrow:
             return "lorc/originals/svg/charged-arrow.svg"
         case .chargingbull:
@@ -4490,7 +4872,7 @@ public enum GameIcon {
         case .charm:
             return "lorc/originals/svg/charm.svg"
         case .chart:
-            return "delapouite/gui/svg/chart.svg"
+            return "delapouite/originals/svg/chart.svg"
         case .checkboxtree:
             return "lorc/originals/svg/checkbox-tree.svg"
         case .checkedshield:
@@ -4500,13 +4882,15 @@ public enum GameIcon {
         case .checkeredflag:
             return "delapouite/originals/svg/checkered-flag.svg"
         case .checklist:
-            return "delapouite/gui/svg/checklist.svg"
+            return "delapouite/originals/svg/checklist.svg"
         case .cheerful:
             return "lorc/originals/svg/cheerful.svg"
         case .cheesewedge:
             return "lorc/originals/svg/cheese-wedge.svg"
         case .cheftoque:
             return "delapouite/originals/svg/chef-toque.svg"
+        case .chelseaboot:
+            return "delapouite/originals/svg/chelsea-boot.svg"
         case .chemicalarrow:
             return "lorc/originals/svg/chemical-arrow.svg"
         case .chemicalbolt:
@@ -4551,16 +4935,22 @@ public enum GameIcon {
             return "delapouite/originals/svg/chimney.svg"
         case .chipsbag:
             return "delapouite/originals/svg/chips-bag.svg"
+        case .chisel:
+            return "delapouite/originals/svg/chisel.svg"
         case .chocolatebar:
             return "rihlsul/originals/svg/chocolate-bar.svg"
         case .choppedskull:
             return "lorc/originals/svg/chopped-skull.svg"
         case .church:
             return "delapouite/originals/svg/church.svg"
+        case .cigale:
+            return "delapouite/originals/svg/cigale.svg"
         case .cigar:
             return "delapouite/originals/svg/cigar.svg"
         case .cigarette:
             return "delapouite/originals/svg/cigarette.svg"
+        case .circle:
+            return "delapouite/originals/svg/circle.svg"
         case .circlecage:
             return "lorc/originals/svg/circle-cage.svg"
         case .circleclaws:
@@ -4587,6 +4977,10 @@ public enum GameIcon {
             return "lorc/originals/svg/claw-slashes.svg"
         case .clawstring:
             return "lorc/originals/svg/claw-string.svg"
+        case .claybrick:
+            return "delapouite/originals/svg/clay-brick.svg"
+        case .claymoreexplosive:
+            return "delapouite/originals/svg/claymore-explosive.svg"
         case .click:
             return "skoll/originals/svg/click.svg"
         case .cloak:
@@ -4594,7 +4988,7 @@ public enum GameIcon {
         case .cloakdagger:
             return "lorc/originals/svg/cloak-dagger.svg"
         case .clockwiserotation:
-            return "delapouite/gui/svg/clockwise-rotation.svg"
+            return "delapouite/originals/svg/clockwise-rotation.svg"
         case .clockwork:
             return "lorc/originals/svg/clockwork.svg"
         case .closedbarbute:
@@ -4603,8 +4997,12 @@ public enum GameIcon {
             return "delapouite/originals/svg/closed-doors.svg"
         case .clothespin:
             return "delapouite/originals/svg/clothespin.svg"
+        case .clouddownload:
+            return "delapouite/originals/svg/cloud-download.svg"
         case .cloudring:
             return "lorc/originals/svg/cloud-ring.svg"
+        case .cloudupload:
+            return "delapouite/originals/svg/cloud-upload.svg"
         case .cloudyfork:
             return "lorc/originals/svg/cloudy-fork.svg"
         case .clout:
@@ -4651,6 +5049,8 @@ public enum GameIcon {
             return "lorc/originals/svg/coiling-curl.svg"
         case .coins:
             return "delapouite/originals/svg/coins.svg"
+        case .coinspile:
+            return "delapouite/originals/svg/coins-pile.svg"
         case .coldheart:
             return "lorc/originals/svg/cold-heart.svg"
         case .coliseum:
@@ -4700,7 +5100,9 @@ public enum GameIcon {
         case .contortionist:
             return "delapouite/originals/svg/contortionist.svg"
         case .contract:
-            return "delapouite/gui/svg/contract.svg"
+            return "delapouite/originals/svg/contract.svg"
+        case .controltower:
+            return "delapouite/originals/svg/control-tower.svg"
         case .convergencetarget:
             return "delapouite/originals/svg/convergence-target.svg"
         case .conversation:
@@ -4709,6 +5111,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/convict.svg"
         case .convince:
             return "delapouite/originals/svg/convince.svg"
+        case .conwaylifeglider:
+            return "delapouite/originals/svg/conway-life-glider.svg"
         case .cookie:
             return "delapouite/originals/svg/cookie.svg"
         case .cookingpot:
@@ -4722,7 +5126,7 @@ public enum GameIcon {
         case .cornerexplosion:
             return "lorc/originals/svg/corner-explosion.svg"
         case .cornerflag:
-            return "delapouite/sports/svg/corner-flag.svg"
+            return "delapouite/originals/svg/corner-flag.svg"
         case .cornucopia:
             return "delapouite/originals/svg/cornucopia.svg"
         case .coronation:
@@ -4763,10 +5167,14 @@ public enum GameIcon {
             return "lorc/originals/svg/cracked-saber.svg"
         case .crackedshield:
             return "lorc/originals/svg/cracked-shield.svg"
+        case .crafting:
+            return "delapouite/originals/svg/crafting.svg"
         case .crags:
             return "lorc/originals/svg/crags.svg"
         case .crane:
             return "delapouite/originals/svg/crane.svg"
+        case .crenelcrown:
+            return "delapouite/originals/svg/crenel-crown.svg"
         case .crenulatedshield:
             return "lorc/originals/svg/crenulated-shield.svg"
         case .crescentblade:
@@ -4777,6 +5185,8 @@ public enum GameIcon {
             return "lorc/originals/svg/crested-helmet.svg"
         case .cricket:
             return "delapouite/originals/svg/cricket.svg"
+        case .cricketbat:
+            return "delapouite/originals/svg/cricket-bat.svg"
         case .crimescenetape:
             return "delapouite/originals/svg/crime-scene-tape.svg"
         case .crocjaws:
@@ -4787,8 +5197,12 @@ public enum GameIcon {
             return "delapouite/originals/svg/croissant.svg"
         case .croissantspupil:
             return "lorc/originals/svg/croissants-pupil.svg"
+        case .crookflail:
+            return "delapouite/originals/svg/crook-flail.svg"
         case .crossbow:
             return "carl-olsen/originals/svg/crossbow.svg"
+        case .crosscutsaw:
+            return "delapouite/originals/svg/crosscut-saw.svg"
         case .crossedairflows:
             return "lorc/originals/svg/crossed-air-flows.svg"
         case .crossedaxes:
@@ -4881,6 +5295,8 @@ public enum GameIcon {
             return "lorc/originals/svg/curled-leaf.svg"
         case .curledtentacle:
             return "lorc/originals/svg/curled-tentacle.svg"
+        case .curlingstone:
+            return "delapouite/originals/svg/curling-stone.svg"
         case .curlingvines:
             return "lorc/originals/svg/curling-vines.svg"
         case .curlymask:
@@ -4891,6 +5307,8 @@ public enum GameIcon {
             return "lorc/originals/svg/cursed-star.svg"
         case .curvyknife:
             return "lorc/originals/svg/curvy-knife.svg"
+        case .custodianhelmet:
+            return "delapouite/originals/svg/custodian-helmet.svg"
         case .cutdiamond:
             return "lorc/originals/svg/cut-diamond.svg"
         case .cutlemon:
@@ -4927,12 +5345,16 @@ public enum GameIcon {
             return "lorc/originals/svg/daisy.svg"
         case .damagedhouse:
             return "quoting/originals/svg/damaged-house.svg"
+        case .dandelionflower:
+            return "delapouite/originals/svg/dandelion-flower.svg"
+        case .dango:
+            return "delapouite/originals/svg/dango.svg"
         case .darksquad:
             return "lorc/originals/svg/dark-squad.svg"
         case .dart:
             return "delapouite/originals/svg/dart.svg"
         case .database:
-            return "delapouite/gui/svg/database.svg"
+            return "delapouite/originals/svg/database.svg"
         case .deadeye:
             return "lorc/originals/svg/dead-eye.svg"
         case .deadhead:
@@ -4998,21 +5420,21 @@ public enum GameIcon {
         case .diamondssmile:
             return "lorc/originals/svg/diamonds-smile.svg"
         case .diceeightfaceseight:
-            return "delapouite/dice/svg/dice-eight-faces-eight.svg"
+            return "delapouite/originals/svg/dice-eight-faces-eight.svg"
         case .dicesixfacesfive:
-            return "delapouite/dice/svg/dice-six-faces-five.svg"
+            return "delapouite/originals/svg/dice-six-faces-five.svg"
         case .dicesixfacesfour:
-            return "delapouite/dice/svg/dice-six-faces-four.svg"
+            return "delapouite/originals/svg/dice-six-faces-four.svg"
         case .dicesixfacesone:
-            return "delapouite/dice/svg/dice-six-faces-one.svg"
+            return "delapouite/originals/svg/dice-six-faces-one.svg"
         case .dicesixfacessix:
-            return "delapouite/dice/svg/dice-six-faces-six.svg"
+            return "delapouite/originals/svg/dice-six-faces-six.svg"
         case .dicesixfacesthree:
-            return "delapouite/dice/svg/dice-six-faces-three.svg"
+            return "delapouite/originals/svg/dice-six-faces-three.svg"
         case .dicesixfacestwo:
-            return "delapouite/dice/svg/dice-six-faces-two.svg"
+            return "delapouite/originals/svg/dice-six-faces-two.svg"
         case .dicetwentyfacestwenty:
-            return "delapouite/dice/svg/dice-twenty-faces-twenty.svg"
+            return "delapouite/originals/svg/dice-twenty-faces-twenty.svg"
         case .digdug:
             return "lorc/originals/svg/dig-dug.svg"
         case .dighole:
@@ -5039,6 +5461,10 @@ public enum GameIcon {
             return "delapouite/originals/svg/director-chair.svg"
         case .direwolf:
             return "lorc/originals/svg/direwolf.svg"
+        case .discgolfbag:
+            return "delapouite/originals/svg/disc-golf-bag.svg"
+        case .discgolfbasket:
+            return "delapouite/originals/svg/disc-golf-basket.svg"
         case .discussion:
             return "delapouite/originals/svg/discussion.svg"
         case .disintegrate:
@@ -5059,6 +5485,8 @@ public enum GameIcon {
             return "lorc/originals/svg/diving-dagger.svg"
         case .divinghelmet:
             return "delapouite/originals/svg/diving-helmet.svg"
+        case .djinn:
+            return "delapouite/originals/svg/djinn.svg"
         case .dna1:
             return "lorc/originals/svg/dna1.svg"
         case .dna2:
@@ -5071,14 +5499,20 @@ public enum GameIcon {
             return "lorc/originals/svg/dodging.svg"
         case .dogbowl:
             return "delapouite/originals/svg/dog-bowl.svg"
+        case .dolmen:
+            return "delapouite/originals/svg/dolmen.svg"
         case .dolphin:
             return "delapouite/originals/svg/dolphin.svg"
         case .dominomask:
             return "lorc/originals/svg/domino-mask.svg"
+        case .dominotiles:
+            return "delapouite/originals/svg/domino-tiles.svg"
         case .donkey:
             return "skoll/originals/svg/donkey.svg"
         case .donut:
             return "delapouite/originals/svg/donut.svg"
+        case .doorhandle:
+            return "delapouite/originals/svg/door-handle.svg"
         case .dorsalscales:
             return "lorc/originals/svg/dorsal-scales.svg"
         case .doubled:
@@ -5111,6 +5545,8 @@ public enum GameIcon {
             return "faithtoken/originals/svg/dragon-head.svg"
         case .dragonhead2:
             return "lorc/originals/svg/dragon-head.svg"
+        case .dragonorb:
+            return "delapouite/originals/svg/dragon-orb.svg"
         case .dragonspiral:
             return "lorc/originals/svg/dragon-spiral.svg"
         case .drakkar:
@@ -5173,6 +5609,8 @@ public enum GameIcon {
             return "lorc/originals/svg/duality-mask.svg"
         case .duck:
             return "delapouite/originals/svg/duck.svg"
+        case .duckpalm:
+            return "delapouite/originals/svg/duck-palm.svg"
         case .duel:
             return "sbed/originals/svg/duel.svg"
         case .duncecap:
@@ -5181,6 +5619,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/dungeon-gate.svg"
         case .dungeonlight:
             return "delapouite/originals/svg/dungeon-light.svg"
+        case .duration:
+            return "delapouite/originals/svg/duration.svg"
         case .dustcloud:
             return "lorc/originals/svg/dust-cloud.svg"
         case .dutchbike:
@@ -5197,6 +5637,10 @@ public enum GameIcon {
             return "delapouite/originals/svg/dynamite.svg"
         case .eagleemblem:
             return "lorc/originals/svg/eagle-emblem.svg"
+        case .eaglehead:
+            return "delapouite/originals/svg/eagle-head.svg"
+        case .earrings:
+            return "delapouite/originals/svg/earrings.svg"
         case .earthafricaeurope:
             return "delapouite/originals/svg/earth-africa-europe.svg"
         case .earthamerica:
@@ -5241,14 +5685,22 @@ public enum GameIcon {
             return "sbed/originals/svg/egg-pod.svg"
         case .egypt:
             return "delapouite/originals/svg/egypt.svg"
+        case .egyptianbird:
+            return "delapouite/originals/svg/egyptian-bird.svg"
+        case .egyptianprofile:
+            return "delapouite/originals/svg/egyptian-profile.svg"
         case .egyptianpyramids:
             return "delapouite/originals/svg/egyptian-pyramids.svg"
         case .egyptiansphinx:
             return "delapouite/originals/svg/egyptian-sphinx.svg"
+        case .egyptiantemple:
+            return "delapouite/originals/svg/egyptian-temple.svg"
+        case .egyptianurns:
+            return "delapouite/originals/svg/egyptian-urns.svg"
         case .egyptianwalk:
             return "delapouite/originals/svg/egyptian-walk.svg"
         case .eightball:
-            return "delapouite/sports/svg/eight-ball.svg"
+            return "delapouite/originals/svg/eight-ball.svg"
         case .elderberry:
             return "lorc/originals/svg/elderberry.svg"
         case .electric:
@@ -5329,6 +5781,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/eternal-love.svg"
         case .europeanflag:
             return "delapouite/originals/svg/european-flag.svg"
+        case .evasion:
+            return "delapouite/originals/svg/evasion.svg"
         case .evilbat:
             return "lorc/originals/svg/evil-bat.svg"
         case .evilbook:
@@ -5356,7 +5810,7 @@ public enum GameIcon {
         case .exitdoor:
             return "delapouite/originals/svg/exit-door.svg"
         case .expand:
-            return "delapouite/gui/svg/expand.svg"
+            return "delapouite/originals/svg/expand.svg"
         case .expandedrays:
             return "lorc/originals/svg/expanded-rays.svg"
         case .expander:
@@ -5377,6 +5831,8 @@ public enum GameIcon {
             return "lorc/originals/svg/eyeball.svg"
         case .eyedropper:
             return "lorc/originals/svg/eyedropper.svg"
+        case .eyelashes:
+            return "delapouite/originals/svg/eyelashes.svg"
         case .eyeofhorus:
             return "delapouite/originals/svg/eye-of-horus.svg"
         case .eyeshield:
@@ -5409,6 +5865,8 @@ public enum GameIcon {
             return "sbed/originals/svg/falling.svg"
         case .fallingblob:
             return "lorc/originals/svg/falling-blob.svg"
+        case .fallingbomb:
+            return "delapouite/originals/svg/falling-bomb.svg"
         case .fallingboulder:
             return "lorc/originals/svg/falling-boulder.svg"
         case .fallingeye:
@@ -5425,6 +5883,8 @@ public enum GameIcon {
             return "skoll/originals/svg/famas.svg"
         case .familyhouse:
             return "delapouite/originals/svg/family-house.svg"
+        case .familytree:
+            return "delapouite/originals/svg/family-tree.svg"
         case .fangedskull:
             return "lorc/originals/svg/fanged-skull.svg"
         case .fangs:
@@ -5453,10 +5913,14 @@ public enum GameIcon {
             return "delapouite/originals/svg/feline.svg"
         case .female:
             return "delapouite/originals/svg/female.svg"
+        case .femalelegs:
+            return "delapouite/originals/svg/female-legs.svg"
         case .femalevampire:
             return "delapouite/originals/svg/female-vampire.svg"
         case .fencer:
             return "delapouite/originals/svg/fencer.svg"
+        case .fertilizerbag:
+            return "delapouite/originals/svg/fertilizer-bag.svg"
         case .fetus:
             return "skoll/originals/svg/fetus.svg"
         case .fez:
@@ -5465,6 +5929,8 @@ public enum GameIcon {
             return "lorc/originals/svg/field.svg"
         case .fieldgun:
             return "quoting/originals/svg/field-gun.svg"
+        case .figurehead:
+            return "delapouite/originals/svg/figurehead.svg"
         case .files:
             return "delapouite/originals/svg/files.svg"
         case .filmprojector:
@@ -5475,6 +5941,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/film-strip.svg"
         case .finch:
             return "delapouite/originals/svg/finch.svg"
+        case .fingernail:
+            return "delapouite/originals/svg/fingernail.svg"
         case .fingerprint:
             return "delapouite/originals/svg/finger-print.svg"
         case .fingerscrossed:
@@ -5503,6 +5971,8 @@ public enum GameIcon {
             return "sbed/originals/svg/fireflake.svg"
         case .fireflower:
             return "delapouite/originals/svg/fire-flower.svg"
+        case .fireplace:
+            return "delapouite/originals/svg/fireplace.svg"
         case .firepunch:
             return "lorc/originals/svg/fire-punch.svg"
         case .fireray:
@@ -5515,6 +5985,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/fire-shrine.svg"
         case .firesilhouette:
             return "lorc/originals/svg/fire-silhouette.svg"
+        case .firespellcast:
+            return "delapouite/originals/svg/fire-spell-cast.svg"
         case .firetail:
             return "lorc/originals/svg/fire-tail.svg"
         case .firewave:
@@ -5571,6 +6043,10 @@ public enum GameIcon {
             return "sbed/originals/svg/flamer.svg"
         case .flamespin:
             return "lorc/originals/svg/flame-spin.svg"
+        case .flamethrower:
+            return "delapouite/originals/svg/flamethrower.svg"
+        case .flamethrowersoldier:
+            return "delapouite/originals/svg/flamethrower-soldier.svg"
         case .flametunnel:
             return "lorc/originals/svg/flame-tunnel.svg"
         case .flamingarrow:
@@ -5599,18 +6075,24 @@ public enum GameIcon {
             return "lorc/originals/svg/flat-star.svg"
         case .flattire:
             return "delapouite/originals/svg/flat-tire.svg"
+        case .flax:
+            return "delapouite/originals/svg/flax.svg"
         case .fleshymass:
             return "lorc/originals/svg/fleshy-mass.svg"
         case .fleurdelys:
             return "delapouite/originals/svg/fleur-de-lys.svg"
         case .flexiblestar:
             return "lorc/originals/svg/flexible-star.svg"
+        case .flintspark:
+            return "delapouite/originals/svg/flint-spark.svg"
         case .flipflops:
             return "delapouite/originals/svg/flip-flops.svg"
         case .floatingcrystal:
             return "lorc/originals/svg/floating-crystal.svg"
         case .floatingghost:
             return "delapouite/originals/svg/floating-ghost.svg"
+        case .floatingtentacles:
+            return "delapouite/originals/svg/floating-tentacles.svg"
         case .flood:
             return "delapouite/originals/svg/flood.svg"
         case .floorhatch:
@@ -5659,6 +6141,8 @@ public enum GameIcon {
             return "lorc/originals/svg/foamy-disc.svg"
         case .focusedlightning:
             return "lorc/originals/svg/focused-lightning.svg"
+        case .fog:
+            return "delapouite/originals/svg/fog.svg"
         case .foldedpaper:
             return "lorc/originals/svg/folded-paper.svg"
         case .fomorian:
@@ -5675,10 +6159,14 @@ public enum GameIcon {
             return "skoll/originals/svg/footsteps.svg"
         case .foottrip:
             return "lorc/originals/svg/foot-trip.svg"
+        case .footyfield:
+            return "delapouite/originals/svg/footy-field.svg"
         case .forearm:
             return "delapouite/originals/svg/forearm.svg"
         case .forest:
             return "delapouite/originals/svg/forest.svg"
+        case .forestcamp:
+            return "delapouite/originals/svg/forest-camp.svg"
         case .forklift:
             return "delapouite/originals/svg/forklift.svg"
         case .forwardfield:
@@ -5759,6 +6247,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/funnel.svg"
         case .furboot:
             return "delapouite/originals/svg/fur-boot.svg"
+        case .furshirt:
+            return "delapouite/originals/svg/fur-shirt.svg"
         case .galea:
             return "delapouite/originals/svg/galea.svg"
         case .galleon:
@@ -5800,7 +6290,7 @@ public enum GameIcon {
         case .gemchain:
             return "lorc/originals/svg/gem-chain.svg"
         case .gemini:
-            return "delapouite/zodiac/svg/gemini.svg"
+            return "delapouite/originals/svg/gemini.svg"
         case .gemnecklace:
             return "lorc/originals/svg/gem-necklace.svg"
         case .gempendant:
@@ -5825,6 +6315,10 @@ public enum GameIcon {
             return "delapouite/originals/svg/gingerbread-man.svg"
         case .gladius:
             return "skoll/originals/svg/gladius.svg"
+        case .glaive:
+            return "delapouite/originals/svg/glaive.svg"
+        case .glassball:
+            return "delapouite/originals/svg/glass-ball.svg"
         case .glasscelebration:
             return "delapouite/originals/svg/glass-celebration.svg"
         case .glassheart:
@@ -5870,7 +6364,7 @@ public enum GameIcon {
         case .golemhead:
             return "delapouite/originals/svg/golem-head.svg"
         case .golfflag:
-            return "delapouite/sports/svg/golf-flag.svg"
+            return "delapouite/originals/svg/golf-flag.svg"
         case .gooexplosion:
             return "lorc/originals/svg/goo-explosion.svg"
         case .gooeydaemon:
@@ -5901,6 +6395,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/graduate-cap.svg"
         case .grain:
             return "delapouite/originals/svg/grain.svg"
+        case .granary:
+            return "delapouite/originals/svg/granary.svg"
         case .grapes:
             return "lorc/originals/svg/grapes.svg"
         case .grapple:
@@ -5915,6 +6411,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/graveyard.svg"
         case .greasetrap:
             return "lorc/originals/svg/grease-trap.svg"
+        case .greatpyramid:
+            return "delapouite/originals/svg/great-pyramid.svg"
         case .greatwartank:
             return "cathelineau/originals/svg/great-war-tank.svg"
         case .greaves:
@@ -5989,6 +6487,8 @@ public enum GameIcon {
             return "sbed/originals/svg/hand.svg"
         case .handbag:
             return "delapouite/originals/svg/hand-bag.svg"
+        case .handbandage:
+            return "delapouite/originals/svg/hand-bandage.svg"
         case .handcuffed:
             return "delapouite/originals/svg/handcuffed.svg"
         case .handcuffs:
@@ -6009,6 +6509,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/hang-glider.svg"
         case .hangglider2:
             return "skoll/originals/svg/hang-glider.svg"
+        case .hangingsign:
+            return "delapouite/originals/svg/hanging-sign.svg"
         case .hangingspider:
             return "lorc/originals/svg/hanging-spider.svg"
         case .happyskull:
@@ -6043,14 +6545,22 @@ public enum GameIcon {
             return "sbed/originals/svg/head-shot.svg"
         case .headshot3:
             return "skoll/originals/svg/headshot.svg"
+        case .healing:
+            return "delapouite/originals/svg/healing.svg"
+        case .healthcapsule:
+            return "delapouite/originals/svg/health-capsule.svg"
         case .healthdecrease:
             return "sbed/originals/svg/health-decrease.svg"
         case .healthincrease:
             return "sbed/originals/svg/health-increase.svg"
         case .healthnormal:
             return "sbed/originals/svg/health-normal.svg"
+        case .healthpotion:
+            return "delapouite/originals/svg/health-potion.svg"
         case .hearingdisabled:
             return "skoll/originals/svg/hearing-disabled.svg"
+        case .heartbattery:
+            return "delapouite/originals/svg/heart-battery.svg"
         case .heartbeats:
             return "delapouite/originals/svg/heart-beats.svg"
         case .heartbottle:
@@ -6113,6 +6623,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/hemp.svg"
         case .heptagram:
             return "delapouite/originals/svg/heptagram.svg"
+        case .herbsbundle:
+            return "delapouite/originals/svg/herbs-bundle.svg"
         case .hexagonalnut:
             return "delapouite/originals/svg/hexagonal-nut.svg"
         case .hexes:
@@ -6140,13 +6652,15 @@ public enum GameIcon {
         case .hills:
             return "delapouite/originals/svg/hills.svg"
         case .histogram:
-            return "delapouite/gui/svg/histogram.svg"
+            return "delapouite/originals/svg/histogram.svg"
         case .hive:
             return "sbed/originals/svg/hive.svg"
         case .hobbitdwelling:
             return "delapouite/originals/svg/hobbit-dwelling.svg"
         case .hockey:
-            return "delapouite/sports/svg/hockey.svg"
+            return "delapouite/originals/svg/hockey.svg"
+        case .hole:
+            return "delapouite/originals/svg/hole.svg"
         case .holeladder:
             return "delapouite/originals/svg/hole-ladder.svg"
         case .holosphere:
@@ -6178,7 +6692,7 @@ public enum GameIcon {
         case .hops:
             return "delapouite/originals/svg/hops.svg"
         case .horizontalflip:
-            return "delapouite/gui/svg/horizontal-flip.svg"
+            return "delapouite/originals/svg/horizontal-flip.svg"
         case .hornedhelm:
             return "lorc/originals/svg/horned-helm.svg"
         case .hornedreptile:
@@ -6195,6 +6709,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/horseshoe.svg"
         case .horus:
             return "delapouite/originals/svg/horus.svg"
+        case .hospital:
+            return "delapouite/originals/svg/hospital.svg"
         case .hospitalcross:
             return "lorc/originals/svg/hospital-cross.svg"
         case .hotmeal:
@@ -6217,8 +6733,18 @@ public enum GameIcon {
             return "delapouite/originals/svg/human-ear.svg"
         case .humanpyramid:
             return "delapouite/originals/svg/human-pyramid.svg"
+        case .hummingbird:
+            return "delapouite/originals/svg/hummingbird.svg"
+        case .hungary:
+            return "delapouite/originals/svg/hungary.svg"
+        case .huntingbolas:
+            return "delapouite/originals/svg/hunting-bolas.svg"
         case .huntinghorn:
             return "lorc/originals/svg/hunting-horn.svg"
+        case .hut:
+            return "delapouite/originals/svg/hut.svg"
+        case .hutsvillage:
+            return "delapouite/originals/svg/huts-village.svg"
         case .hydra:
             return "lorc/originals/svg/hydra.svg"
         case .hydrashot:
@@ -6232,7 +6758,7 @@ public enum GameIcon {
         case .ibeam:
             return "delapouite/originals/svg/i-beam.svg"
         case .ibrick:
-            return "delapouite/tetris/svg/i-brick.svg"
+            return "delapouite/originals/svg/i-brick.svg"
         case .icarus:
             return "delapouite/originals/svg/icarus.svg"
         case .iceberg:
@@ -6249,6 +6775,8 @@ public enum GameIcon {
             return "lorc/originals/svg/ice-cube.svg"
         case .icegolem:
             return "delapouite/originals/svg/ice-golem.svg"
+        case .iceland:
+            return "delapouite/originals/svg/iceland.svg"
         case .icepop:
             return "delapouite/originals/svg/ice-pop.svg"
         case .iceshield:
@@ -6277,6 +6805,8 @@ public enum GameIcon {
             return "lorc/originals/svg/imp.svg"
         case .impactpoint:
             return "lorc/originals/svg/impact-point.svg"
+        case .imperialcrown:
+            return "delapouite/originals/svg/imperial-crown.svg"
         case .implaugh:
             return "lorc/originals/svg/imp-laugh.svg"
         case .implosion:
@@ -6305,6 +6835,8 @@ public enum GameIcon {
             return "lorc/originals/svg/inner-self.svg"
         case .insectjaws:
             return "lorc/originals/svg/insect-jaws.svg"
+        case .interceptorship:
+            return "delapouite/originals/svg/interceptor-ship.svg"
         case .interdiction:
             return "lorc/originals/svg/interdiction.svg"
         case .interlacedtentacles:
@@ -6357,6 +6889,8 @@ public enum GameIcon {
             return "lorc/originals/svg/james-bond-aperture.svg"
         case .japan:
             return "delapouite/originals/svg/japan.svg"
+        case .jasmine:
+            return "delapouite/originals/svg/jasmine.svg"
         case .jasonmask:
             return "delapouite/originals/svg/jason-mask.svg"
         case .jawbone:
@@ -6364,7 +6898,7 @@ public enum GameIcon {
         case .jawlesscyclop:
             return "delapouite/originals/svg/jawless-cyclop.svg"
         case .jbrick:
-            return "delapouite/tetris/svg/j-brick.svg"
+            return "delapouite/originals/svg/j-brick.svg"
         case .jeep:
             return "delapouite/originals/svg/jeep.svg"
         case .jeep2:
@@ -6415,6 +6949,8 @@ public enum GameIcon {
             return "lorc/originals/svg/justice-star.svg"
         case .kaleidoscopepearls:
             return "lorc/originals/svg/kaleidoscope-pearls.svg"
+        case .kangaroo:
+            return "delapouite/originals/svg/kangaroo.svg"
         case .katana:
             return "delapouite/originals/svg/katana.svg"
         case .kenkuhead:
@@ -6431,6 +6967,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/keyboard.svg"
         case .keyring:
             return "delapouite/originals/svg/keyring.svg"
+        case .kidneys:
+            return "delapouite/originals/svg/kidneys.svg"
         case .kimono:
             return "delapouite/originals/svg/kimono.svg"
         case .kindle:
@@ -6463,10 +7001,18 @@ public enum GameIcon {
             return "skoll/originals/svg/knockout.svg"
         case .knot:
             return "delapouite/originals/svg/knot.svg"
+        case .koala:
+            return "delapouite/originals/svg/koala.svg"
+        case .krakententacle:
+            return "delapouite/originals/svg/kraken-tentacle.svg"
         case .kusarigama:
             return "darkzaitzev/originals/svg/kusarigama.svg"
+        case .labcoat:
+            return "delapouite/originals/svg/lab-coat.svg"
         case .ladder:
             return "delapouite/originals/svg/ladder.svg"
+        case .ladle:
+            return "delapouite/originals/svg/ladle.svg"
         case .ladybug:
             return "delapouite/originals/svg/ladybug.svg"
         case .lamellar:
@@ -6518,15 +7064,19 @@ public enum GameIcon {
         case .layeredarmor:
             return "lorc/originals/svg/layered-armor.svg"
         case .lbrick:
-            return "delapouite/tetris/svg/l-brick.svg"
+            return "delapouite/originals/svg/l-brick.svg"
         case .leadpipe:
             return "delapouite/originals/svg/lead-pipe.svg"
         case .leafskeleton:
             return "lorc/originals/svg/leaf-skeleton.svg"
         case .leafswirl:
             return "lorc/originals/svg/leaf-swirl.svg"
+        case .leak:
+            return "delapouite/originals/svg/leak.svg"
         case .leakyskull:
             return "lorc/originals/svg/leaky-skull.svg"
+        case .leatherarmor:
+            return "delapouite/originals/svg/leather-armor.svg"
         case .leatherboot:
             return "lorc/originals/svg/leather-boot.svg"
         case .leathervest:
@@ -6542,7 +7092,7 @@ public enum GameIcon {
         case .lemon:
             return "delapouite/originals/svg/lemon.svg"
         case .leo:
-            return "delapouite/zodiac/svg/leo.svg"
+            return "delapouite/originals/svg/leo.svg"
         case .letterbomb:
             return "lorc/originals/svg/letter-bomb.svg"
         case .levelcrossing:
@@ -6563,8 +7113,12 @@ public enum GameIcon {
             return "lorc/originals/svg/lever.svg"
         case .liar:
             return "delapouite/originals/svg/liar.svg"
+        case .libertywing:
+            return "delapouite/originals/svg/liberty-wing.svg"
         case .libra:
-            return "delapouite/zodiac/svg/libra.svg"
+            return "delapouite/originals/svg/libra.svg"
+        case .lifebar:
+            return "delapouite/originals/svg/life-bar.svg"
         case .lifebuoy:
             return "delapouite/originals/svg/life-buoy.svg"
         case .lifeinthebalance:
@@ -6650,7 +7204,7 @@ public enum GameIcon {
         case .lizardtongue:
             return "lorc/originals/svg/lizard-tongue.svg"
         case .load:
-            return "delapouite/gui/svg/load.svg"
+            return "delapouite/originals/svg/load.svg"
         case .lobarrow:
             return "lorc/originals/svg/lob-arrow.svg"
         case .lockedbox:
@@ -6763,6 +7317,8 @@ public enum GameIcon {
             return "lorc/originals/svg/mail-shirt.svg"
         case .male:
             return "delapouite/originals/svg/male.svg"
+        case .mammoth:
+            return "delapouite/originals/svg/mammoth.svg"
         case .manacles:
             return "lorc/originals/svg/manacles.svg"
         case .mandrillhead:
@@ -6773,6 +7329,8 @@ public enum GameIcon {
             return "lorc/originals/svg/mantrap.svg"
         case .manualjuicer:
             return "delapouite/originals/svg/manual-juicer.svg"
+        case .manualmeatgrinder:
+            return "delapouite/originals/svg/manual-meat-grinder.svg"
         case .mapleleaf:
             return "lorc/originals/svg/maple-leaf.svg"
         case .marbles:
@@ -6835,6 +7393,8 @@ public enum GameIcon {
             return "sbed/originals/svg/medical-pack-alt.svg"
         case .medicinepills:
             return "delapouite/originals/svg/medicine-pills.svg"
+        case .medicines:
+            return "delapouite/originals/svg/medicines.svg"
         case .medievalgate:
             return "delapouite/originals/svg/medieval-gate.svg"
         case .medievalpavilion:
@@ -6861,6 +7421,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/mermaid.svg"
         case .meshball:
             return "lorc/originals/svg/mesh-ball.svg"
+        case .meshnetwork:
+            return "delapouite/originals/svg/mesh-network.svg"
         case .metalbar:
             return "lorc/originals/svg/metal-bar.svg"
         case .metaldisc:
@@ -6871,10 +7433,14 @@ public enum GameIcon {
             return "delapouite/originals/svg/metal-plate.svg"
         case .metalscales:
             return "lorc/originals/svg/metal-scales.svg"
+        case .metalskirt:
+            return "delapouite/originals/svg/metal-skirt.svg"
         case .meteorimpact:
             return "lorc/originals/svg/meteor-impact.svg"
         case .metroid:
             return "delapouite/originals/svg/metroid.svg"
+        case .metronome:
+            return "delapouite/originals/svg/metronome.svg"
         case .mexico:
             return "delapouite/originals/svg/mexico.svg"
         case .microchip:
@@ -6891,6 +7457,8 @@ public enum GameIcon {
             return "lorc/originals/svg/midnight-claw.svg"
         case .mightyboosh:
             return "delapouite/originals/svg/mighty-boosh.svg"
+        case .mightyforce:
+            return "delapouite/originals/svg/mighty-force.svg"
         case .mightyspanner:
             return "lorc/originals/svg/mighty-spanner.svg"
         case .militaryambulance:
@@ -6901,14 +7469,20 @@ public enum GameIcon {
             return "rihlsul/originals/svg/milk-carton.svg"
         case .milleniumkey:
             return "delapouite/originals/svg/millenium-key.svg"
+        case .mimicchest:
+            return "delapouite/originals/svg/mimic-chest.svg"
         case .mineexplosion:
             return "lorc/originals/svg/mine-explosion.svg"
         case .minefield:
             return "skoll/originals/svg/minefield.svg"
+        case .miner:
+            return "delapouite/originals/svg/miner.svg"
         case .mineralheart:
             return "lorc/originals/svg/mineral-heart.svg"
         case .minerals:
             return "faithtoken/originals/svg/minerals.svg"
+        case .minetruck:
+            return "delapouite/originals/svg/mine-truck.svg"
         case .minewagon:
             return "delapouite/originals/svg/mine-wagon.svg"
         case .minigun:
@@ -6939,6 +7513,8 @@ public enum GameIcon {
             return "lorc/originals/svg/mite.svg"
         case .mitealt:
             return "carl-olsen/originals/svg/mite-alt.svg"
+        case .moai:
+            return "delapouite/originals/svg/moai.svg"
         case .moderncity:
             return "delapouite/originals/svg/modern-city.svg"
         case .moebiusstar:
@@ -6947,6 +7523,8 @@ public enum GameIcon {
             return "lorc/originals/svg/moebius-trefoil.svg"
         case .moebiustriangle:
             return "lorc/originals/svg/moebius-triangle.svg"
+        case .mokapot:
+            return "delapouite/originals/svg/moka-pot.svg"
         case .molecule:
             return "lorc/originals/svg/molecule.svg"
         case .molecule2:
@@ -6969,10 +7547,14 @@ public enum GameIcon {
             return "delapouite/originals/svg/mono-wheel-robot.svg"
         case .monstergrasp:
             return "lorc/originals/svg/monster-grasp.svg"
+        case .monumentvalley:
+            return "delapouite/originals/svg/monument-valley.svg"
         case .moon:
             return "lorc/originals/svg/moon.svg"
         case .moonclaws:
             return "lorc/originals/svg/moon-claws.svg"
+        case .moonorbit:
+            return "delapouite/originals/svg/moon-orbit.svg"
         case .morbidhumour:
             return "lorc/originals/svg/morbid-humour.svg"
         case .morguefeet:
@@ -6996,7 +7578,7 @@ public enum GameIcon {
         case .mouthwatering:
             return "lorc/originals/svg/mouth-watering.svg"
         case .move:
-            return "delapouite/gui/svg/move.svg"
+            return "delapouite/originals/svg/move.svg"
         case .movementsensor:
             return "lorc/originals/svg/movement-sensor.svg"
         case .mp40:
@@ -7029,6 +7611,12 @@ public enum GameIcon {
             return "lorc/originals/svg/mushroom-gills.svg"
         case .mushroomhouse:
             return "delapouite/originals/svg/mushroom-house.svg"
+        case .mushrooms:
+            return "delapouite/originals/svg/mushrooms.svg"
+        case .musicalkeyboard:
+            return "delapouite/originals/svg/musical-keyboard.svg"
+        case .musicalnotes:
+            return "delapouite/originals/svg/musical-notes.svg"
         case .musicalscore:
             return "delapouite/originals/svg/musical-score.svg"
         case .musicspell:
@@ -7107,16 +7695,22 @@ public enum GameIcon {
             return "delapouite/originals/svg/nunchaku.svg"
         case .nunface:
             return "cathelineau/originals/svg/nun-face.svg"
+        case .nursefemale:
+            return "delapouite/originals/svg/nurse-female.svg"
+        case .nursemale:
+            return "delapouite/originals/svg/nurse-male.svg"
         case .oak:
             return "lorc/originals/svg/oak.svg"
         case .oakleaf:
             return "delapouite/originals/svg/oak-leaf.svg"
+        case .oasis:
+            return "delapouite/originals/svg/oasis.svg"
         case .oat:
             return "lorc/originals/svg/oat.svg"
         case .obelisk:
             return "delapouite/originals/svg/obelisk.svg"
         case .obrick:
-            return "delapouite/tetris/svg/o-brick.svg"
+            return "delapouite/originals/svg/o-brick.svg"
         case .observatory:
             return "delapouite/originals/svg/observatory.svg"
         case .ocarina:
@@ -7129,6 +7723,8 @@ public enum GameIcon {
             return "lorc/originals/svg/octoman.svg"
         case .octopus:
             return "lorc/originals/svg/octopus.svg"
+        case .oden:
+            return "delapouite/originals/svg/oden.svg"
         case .offshoreplatform:
             return "delapouite/originals/svg/offshore-platform.svg"
         case .ogre:
@@ -7178,7 +7774,7 @@ public enum GameIcon {
         case .openwound:
             return "lorc/originals/svg/open-wound.svg"
         case .ophiuchus:
-            return "delapouite/zodiac/svg/ophiuchus.svg"
+            return "delapouite/originals/svg/ophiuchus.svg"
         case .oppidum:
             return "cathelineau/originals/svg/oppidum.svg"
         case .oppression:
@@ -7201,8 +7797,12 @@ public enum GameIcon {
             return "faithtoken/originals/svg/ore.svg"
         case .organigram:
             return "delapouite/originals/svg/organigram.svg"
+        case .ostrich:
+            return "delapouite/originals/svg/ostrich.svg"
         case .ouroboros:
             return "lorc/originals/svg/ouroboros.svg"
+        case .outbackhat:
+            return "delapouite/originals/svg/outback-hat.svg"
         case .overdose:
             return "lorc/originals/svg/overdose.svg"
         case .overdrive:
@@ -7255,6 +7855,8 @@ public enum GameIcon {
             return "john-redman/hands/svg/paper.svg"
         case .paperarrow:
             return "lorc/originals/svg/paper-arrow.svg"
+        case .paperboat:
+            return "delapouite/originals/svg/paper-boat.svg"
         case .paperbomb:
             return "lorc/originals/svg/paper-bomb.svg"
         case .paperclip:
@@ -7273,6 +7875,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/papyrus.svg"
         case .parachute:
             return "lorc/originals/svg/parachute.svg"
+        case .paraguay:
+            return "delapouite/originals/svg/paraguay.svg"
         case .paranoia:
             return "lorc/originals/svg/paranoia.svg"
         case .parasaurolophus:
@@ -7283,6 +7887,8 @@ public enum GameIcon {
             return "lorc/originals/svg/parrot-head.svg"
         case .partyflags:
             return "delapouite/originals/svg/party-flags.svg"
+        case .pathdistance:
+            return "delapouite/originals/svg/path-distance.svg"
         case .pathtile:
             return "delapouite/originals/svg/path-tile.svg"
         case .pauldrons:
@@ -7301,8 +7907,12 @@ public enum GameIcon {
             return "lorc/originals/svg/paw-print.svg"
         case .pawprint2:
             return "lorc/originals/svg/pawprint.svg"
+        case .paymoney:
+            return "delapouite/originals/svg/pay-money.svg"
         case .pc:
             return "skoll/originals/svg/pc.svg"
+        case .peach:
+            return "delapouite/originals/svg/peach.svg"
         case .peaks:
             return "lorc/originals/svg/peaks.svg"
         case .peanut:
@@ -7338,37 +7948,37 @@ public enum GameIcon {
         case .person:
             return "delapouite/originals/svg/person.svg"
         case .perspectivedicefive:
-            return "delapouite/dice/svg/perspective-dice-five.svg"
+            return "delapouite/originals/svg/perspective-dice-five.svg"
         case .perspectivedicefour:
-            return "delapouite/dice/svg/perspective-dice-four.svg"
+            return "delapouite/originals/svg/perspective-dice-four.svg"
         case .perspectivediceone:
-            return "delapouite/dice/svg/perspective-dice-one.svg"
+            return "delapouite/originals/svg/perspective-dice-one.svg"
         case .perspectivedicesix:
-            return "delapouite/dice/svg/perspective-dice-six.svg"
+            return "delapouite/originals/svg/perspective-dice-six.svg"
         case .perspectivedicesixfacesfive:
-            return "delapouite/dice/svg/perspective-dice-six-faces-five.svg"
+            return "delapouite/originals/svg/perspective-dice-six-faces-five.svg"
         case .perspectivedicesixfacesfour:
-            return "delapouite/dice/svg/perspective-dice-six-faces-four.svg"
+            return "delapouite/originals/svg/perspective-dice-six-faces-four.svg"
         case .perspectivedicesixfacesone:
-            return "delapouite/dice/svg/perspective-dice-six-faces-one.svg"
+            return "delapouite/originals/svg/perspective-dice-six-faces-one.svg"
         case .perspectivedicesixfacesrandom:
-            return "delapouite/dice/svg/perspective-dice-six-faces-random.svg"
+            return "delapouite/originals/svg/perspective-dice-six-faces-random.svg"
         case .perspectivedicesixfacessix:
-            return "delapouite/dice/svg/perspective-dice-six-faces-six.svg"
+            return "delapouite/originals/svg/perspective-dice-six-faces-six.svg"
         case .perspectivedicesixfacesthree:
-            return "delapouite/dice/svg/perspective-dice-six-faces-three.svg"
+            return "delapouite/originals/svg/perspective-dice-six-faces-three.svg"
         case .perspectivedicesixfacestwo:
-            return "delapouite/dice/svg/perspective-dice-six-faces-two.svg"
+            return "delapouite/originals/svg/perspective-dice-six-faces-two.svg"
         case .perspectivedicethree:
-            return "delapouite/dice/svg/perspective-dice-three.svg"
+            return "delapouite/originals/svg/perspective-dice-three.svg"
         case .perspectivedicetwo:
-            return "delapouite/dice/svg/perspective-dice-two.svg"
+            return "delapouite/originals/svg/perspective-dice-two.svg"
         case .pestlemortar:
             return "skoll/originals/svg/pestle-mortar.svg"
         case .pharoah:
             return "delapouite/originals/svg/pharoah.svg"
         case .phone:
-            return "delapouite/gui/svg/phone.svg"
+            return "delapouite/originals/svg/phone.svg"
         case .photocamera:
             return "delapouite/originals/svg/photo-camera.svg"
         case .phrygiancap:
@@ -7377,6 +7987,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/piano-keys.svg"
         case .pickelhaube:
             return "skoll/originals/svg/pickelhaube.svg"
+        case .pickofdestiny:
+            return "delapouite/originals/svg/pick-of-destiny.svg"
         case .pieceskull:
             return "lorc/originals/svg/piece-skull.svg"
         case .piechart:
@@ -7397,6 +8009,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/piggy-bank.svg"
         case .pikeman:
             return "delapouite/originals/svg/pikeman.svg"
+        case .pilgrimhat:
+            return "delapouite/originals/svg/pilgrim-hat.svg"
         case .pill:
             return "lorc/originals/svg/pill.svg"
         case .pilldrop:
@@ -7414,11 +8028,13 @@ public enum GameIcon {
         case .pinetree:
             return "lorc/originals/svg/pine-tree.svg"
         case .pingpongbat:
-            return "delapouite/sports/svg/ping-pong-bat.svg"
+            return "delapouite/originals/svg/ping-pong-bat.svg"
         case .pipes:
             return "delapouite/originals/svg/pipes.svg"
         case .piranha:
             return "delapouite/originals/svg/piranha.svg"
+        case .piratecannon:
+            return "delapouite/originals/svg/pirate-cannon.svg"
         case .piratecaptain:
             return "delapouite/originals/svg/pirate-captain.svg"
         case .piratecoat:
@@ -7436,7 +8052,7 @@ public enum GameIcon {
         case .pisatower:
             return "delapouite/originals/svg/pisa-tower.svg"
         case .pisces:
-            return "delapouite/zodiac/svg/pisces.svg"
+            return "delapouite/originals/svg/pisces.svg"
         case .pistolgun:
             return "john-colburn/originals/svg/pistol-gun.svg"
         case .pizzacutter:
@@ -7446,9 +8062,13 @@ public enum GameIcon {
         case .plaguedoctorprofile:
             return "delapouite/originals/svg/plague-doctor-profile.svg"
         case .plainarrow:
-            return "delapouite/gui/svg/plain-arrow.svg"
+            return "delapouite/originals/svg/plain-arrow.svg"
+        case .plaincircle:
+            return "delapouite/originals/svg/plain-circle.svg"
         case .plaindagger:
             return "lorc/originals/svg/plain-dagger.svg"
+        case .plainsquare:
+            return "delapouite/originals/svg/plain-square.svg"
         case .planetcore:
             return "delapouite/originals/svg/planet-core.svg"
         case .planewing:
@@ -7459,6 +8079,8 @@ public enum GameIcon {
             return "darkzaitzev/originals/svg/plants-and-animals.svg"
         case .plasmabolt:
             return "lorc/originals/svg/plasma-bolt.svg"
+        case .plasticduck:
+            return "delapouite/originals/svg/plastic-duck.svg"
         case .plastron:
             return "lorc/originals/svg/plastron.svg"
         case .plateclaw:
@@ -7480,7 +8102,7 @@ public enum GameIcon {
         case .pocketwatch:
             return "skoll/originals/svg/pocket-watch.svg"
         case .podium:
-            return "delapouite/sports/svg/podium.svg"
+            return "delapouite/originals/svg/podium.svg"
         case .podiumsecond:
             return "delapouite/originals/svg/podium-second.svg"
         case .podiumthird:
@@ -7509,6 +8131,8 @@ public enum GameIcon {
             return "cathelineau/originals/svg/polar-bear.svg"
         case .policebadge:
             return "andymeneely/originals/svg/police-badge.svg"
+        case .policecar:
+            return "delapouite/originals/svg/police-car.svg"
         case .policeofficerhead:
             return "delapouite/originals/svg/police-officer-head.svg"
         case .policetarget:
@@ -7517,6 +8141,8 @@ public enum GameIcon {
             return "lorc/originals/svg/pollen-dust.svg"
         case .poloshirt:
             return "delapouite/originals/svg/polo-shirt.svg"
+        case .poncho:
+            return "delapouite/originals/svg/poncho.svg"
         case .pooldive:
             return "delapouite/originals/svg/pool-dive.svg"
         case .popcorn:
@@ -7532,7 +8158,7 @@ public enum GameIcon {
         case .portculis:
             return "lorc/originals/svg/portculis.svg"
         case .positionmarker:
-            return "delapouite/gui/svg/position-marker.svg"
+            return "delapouite/originals/svg/position-marker.svg"
         case .potato:
             return "delapouite/originals/svg/potato.svg"
         case .potionball:
@@ -7551,6 +8177,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/power-generator.svg"
         case .powerlightning:
             return "lorc/originals/svg/power-lightning.svg"
+        case .powerring:
+            return "delapouite/originals/svg/power-ring.svg"
         case .prayer:
             return "lorc/originals/svg/prayer.svg"
         case .prayerbeads:
@@ -7565,6 +8193,10 @@ public enum GameIcon {
             return "delapouite/originals/svg/pretzel.svg"
         case .pricetag:
             return "delapouite/originals/svg/price-tag.svg"
+        case .primitivenecklace:
+            return "delapouite/originals/svg/primitive-necklace.svg"
+        case .primitivetorch:
+            return "delapouite/originals/svg/primitive-torch.svg"
         case .prisoner:
             return "delapouite/originals/svg/prisoner.svg"
         case .private1:
@@ -7597,6 +8229,8 @@ public enum GameIcon {
             return "sbed/originals/svg/pulse.svg"
         case .pummeled:
             return "lorc/originals/svg/pummeled.svg"
+        case .pumpkin:
+            return "delapouite/originals/svg/pumpkin.svg"
         case .pumpkinlantern:
             return "lorc/originals/svg/pumpkin-lantern.svg"
         case .pumpkinmask:
@@ -7607,6 +8241,8 @@ public enum GameIcon {
             return "lorc/originals/svg/punch-blast.svg"
         case .puppet:
             return "lorc/originals/svg/puppet.svg"
+        case .purpletentacle:
+            return "delapouite/originals/svg/purple-tentacle.svg"
         case .push:
             return "delapouite/originals/svg/push.svg"
         case .puzzle:
@@ -7639,6 +8275,8 @@ public enum GameIcon {
             return "lorc/originals/svg/radar-sweep.svg"
         case .radialbalance:
             return "lorc/originals/svg/radial-balance.svg"
+        case .radiations:
+            return "delapouite/originals/svg/radiations.svg"
         case .radioactive:
             return "lorc/originals/svg/radioactive.svg"
         case .radiotower:
@@ -7663,6 +8301,8 @@ public enum GameIcon {
             return "darkzaitzev/originals/svg/ram.svg"
         case .ram2:
             return "lorc/originals/svg/ram.svg"
+        case .ramprofile:
+            return "delapouite/originals/svg/ram-profile.svg"
         case .rank1:
             return "skoll/originals/svg/rank-1.svg"
         case .rank2:
@@ -7673,6 +8313,8 @@ public enum GameIcon {
             return "lorc/originals/svg/rapidshare-arrow.svg"
         case .raspberry:
             return "delapouite/originals/svg/raspberry.svg"
+        case .rat:
+            return "delapouite/originals/svg/rat.svg"
         case .rattlesnake:
             return "delapouite/originals/svg/rattlesnake.svg"
         case .raven:
@@ -7689,8 +8331,12 @@ public enum GameIcon {
             return "lorc/originals/svg/reaper-scythe.svg"
         case .rearaura:
             return "lorc/originals/svg/rear-aura.svg"
+        case .receivemoney:
+            return "delapouite/originals/svg/receive-money.svg"
         case .recycle:
             return "lorc/originals/svg/recycle.svg"
+        case .reed:
+            return "delapouite/originals/svg/reed.svg"
         case .refinery:
             return "delapouite/originals/svg/refinery.svg"
         case .regeneration:
@@ -7699,6 +8345,8 @@ public enum GameIcon {
             return "lorc/originals/svg/relationship-bounds.svg"
         case .relicblade:
             return "lorc/originals/svg/relic-blade.svg"
+        case .reloadgunbarrel:
+            return "delapouite/originals/svg/reload-gun-barrel.svg"
         case .reptiletail:
             return "delapouite/originals/svg/reptile-tail.svg"
         case .resize:
@@ -7743,6 +8391,8 @@ public enum GameIcon {
             return "lorc/originals/svg/ringing-bell.svg"
         case .ringmaster:
             return "delapouite/originals/svg/ringmaster.svg"
+        case .ringmould:
+            return "delapouite/originals/svg/ring-mould.svg"
         case .riotshield:
             return "lorc/originals/svg/riot-shield.svg"
         case .river:
@@ -7765,6 +8415,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/robot-antennas.svg"
         case .robotgolem:
             return "lorc/originals/svg/robot-golem.svg"
+        case .robothelmet:
+            return "delapouite/originals/svg/robot-helmet.svg"
         case .robotleg:
             return "delapouite/originals/svg/robot-leg.svg"
         case .rock:
@@ -7777,6 +8429,10 @@ public enum GameIcon {
             return "lorc/originals/svg/rocket-flight.svg"
         case .rocketthruster:
             return "delapouite/originals/svg/rocket-thruster.svg"
+        case .rockingchair:
+            return "delapouite/originals/svg/rocking-chair.svg"
+        case .rodofasclepius:
+            return "delapouite/originals/svg/rod-of-asclepius.svg"
         case .rogue:
             return "lorc/originals/svg/rogue.svg"
         case .rolledcloth:
@@ -7784,7 +8440,7 @@ public enum GameIcon {
         case .rollingbomb:
             return "lorc/originals/svg/rolling-bomb.svg"
         case .rollingdicecup:
-            return "delapouite/dice/svg/rolling-dice-cup.svg"
+            return "delapouite/originals/svg/rolling-dice-cup.svg"
         case .rollingdices:
             return "delapouite/originals/svg/rolling-dices.svg"
         case .rollingenergy:
@@ -7809,6 +8465,8 @@ public enum GameIcon {
             return "lorc/originals/svg/rough-wound.svg"
         case .roundbottomflask:
             return "lorc/originals/svg/round-bottom-flask.svg"
+        case .roundknob:
+            return "delapouite/originals/svg/round-knob.svg"
         case .roundshield:
             return "willdabeast/deviations/svg/round-shield.svg"
         case .roundsilo:
@@ -7819,14 +8477,16 @@ public enum GameIcon {
             return "delapouite/originals/svg/round-straw-bale.svg"
         case .roundstruck:
             return "lorc/originals/svg/round-struck.svg"
+        case .roundtable:
+            return "delapouite/originals/svg/round-table.svg"
         case .royallove:
             return "lorc/originals/svg/royal-love.svg"
         case .rss:
-            return "delapouite/social/svg/rss.svg"
+            return "delapouite/originals/svg/rss.svg"
         case .rss2:
             return "lorc/originals/svg/rss.svg"
         case .rugbyconversion:
-            return "delapouite/sports/svg/rugby-conversion.svg"
+            return "delapouite/originals/svg/rugby-conversion.svg"
         case .run:
             return "lorc/originals/svg/run.svg"
         case .runestone:
@@ -7839,12 +8499,18 @@ public enum GameIcon {
             return "delapouite/originals/svg/running-shoe.svg"
         case .rupee:
             return "delapouite/originals/svg/rupee.svg"
+        case .rustysword:
+            return "delapouite/originals/svg/rusty-sword.svg"
+        case .saberandpistol:
+            return "delapouite/originals/svg/saber-and-pistol.svg"
         case .saberschoc:
             return "lorc/originals/svg/sabers-choc.svg"
         case .saberslash:
             return "lorc/originals/svg/saber-slash.svg"
         case .sabertooth:
             return "lorc/originals/svg/saber-tooth.svg"
+        case .sabertoothedcathead:
+            return "delapouite/originals/svg/saber-toothed-cat-head.svg"
         case .sacrificialdagger:
             return "lorc/originals/svg/sacrificial-dagger.svg"
         case .sadcrab:
@@ -7854,9 +8520,11 @@ public enum GameIcon {
         case .safetypin:
             return "delapouite/originals/svg/safety-pin.svg"
         case .sagittarius:
-            return "delapouite/zodiac/svg/sagittarius.svg"
+            return "delapouite/originals/svg/sagittarius.svg"
         case .sai:
             return "delapouite/originals/svg/sai.svg"
+        case .sail:
+            return "delapouite/originals/svg/sail.svg"
         case .sailboat:
             return "delapouite/originals/svg/sailboat.svg"
         case .saintbasilcathedral:
@@ -7867,6 +8535,8 @@ public enum GameIcon {
             return "lorc/originals/svg/salamander.svg"
         case .salmon:
             return "various-artists/public-domain/svg/salmon.svg"
+        case .saloon:
+            return "delapouite/originals/svg/saloon.svg"
         case .saloondoors:
             return "delapouite/originals/svg/saloon-doors.svg"
         case .saltshaker:
@@ -7879,18 +8549,28 @@ public enum GameIcon {
             return "delapouite/originals/svg/sand-snake.svg"
         case .sandsoftime:
             return "lorc/originals/svg/sands-of-time.svg"
+        case .sandwich:
+            return "delapouite/originals/svg/sandwich.svg"
         case .saphir:
             return "lorc/originals/svg/saphir.svg"
         case .sarcophagus:
             return "delapouite/originals/svg/sarcophagus.svg"
         case .sasquatch:
             return "delapouite/originals/svg/sasquatch.svg"
+        case .satellitecommunication:
+            return "delapouite/originals/svg/satellite-communication.svg"
         case .sattelite:
             return "lorc/originals/svg/sattelite.svg"
         case .sauropodhead:
             return "delapouite/originals/svg/sauropod-head.svg"
+        case .sausage:
+            return "delapouite/originals/svg/sausage.svg"
+        case .sausagesribbon:
+            return "delapouite/originals/svg/sausages-ribbon.svg"
         case .save:
-            return "delapouite/gui/svg/save.svg"
+            return "delapouite/originals/svg/save.svg"
+        case .savearrow:
+            return "delapouite/originals/svg/save-arrow.svg"
         case .sawclaw:
             return "lorc/originals/svg/saw-claw.svg"
         case .sawedoffshotgun:
@@ -7898,7 +8578,7 @@ public enum GameIcon {
         case .saxophone:
             return "delapouite/originals/svg/saxophone.svg"
         case .sbrick:
-            return "delapouite/tetris/svg/s-brick.svg"
+            return "delapouite/originals/svg/s-brick.svg"
         case .scabbard:
             return "delapouite/originals/svg/scabbard.svg"
         case .scalemail:
@@ -7924,11 +8604,13 @@ public enum GameIcon {
         case .scooter:
             return "delapouite/originals/svg/scooter.svg"
         case .scorpio:
-            return "delapouite/zodiac/svg/scorpio.svg"
+            return "delapouite/originals/svg/scorpio.svg"
         case .scorpion:
             return "lorc/originals/svg/scorpion.svg"
         case .scorpiontail:
             return "lorc/originals/svg/scorpion-tail.svg"
+        case .scoutship:
+            return "delapouite/originals/svg/scout-ship.svg"
         case .screaming:
             return "lorc/originals/svg/screaming.svg"
         case .screenimpact:
@@ -7957,6 +8639,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/secret-book.svg"
         case .secretdoor:
             return "delapouite/originals/svg/secret-door.svg"
+        case .seedling:
+            return "delapouite/originals/svg/seedling.svg"
         case .select:
             return "sbed/originals/svg/select.svg"
         case .selflove:
@@ -7973,6 +8657,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/sergeant.svg"
         case .serratedslash:
             return "lorc/originals/svg/serrated-slash.svg"
+        case .settingsknobs:
+            return "delapouite/originals/svg/settings-knobs.svg"
         case .sevenpointedstar:
             return "delapouite/originals/svg/seven-pointed-star.svg"
         case .severedhand:
@@ -7993,8 +8679,12 @@ public enum GameIcon {
             return "delapouite/originals/svg/shambling-mound.svg"
         case .shamblingzombie:
             return "delapouite/originals/svg/shambling-zombie.svg"
+        case .shamrock:
+            return "delapouite/originals/svg/shamrock.svg"
         case .shardsword:
             return "lorc/originals/svg/shard-sword.svg"
+        case .sharkbite:
+            return "delapouite/originals/svg/shark-bite.svg"
         case .sharkfin:
             return "delapouite/originals/svg/shark-fin.svg"
         case .sharkjaws:
@@ -8070,7 +8760,7 @@ public enum GameIcon {
         case .shop:
             return "delapouite/originals/svg/shop.svg"
         case .shoppingcart:
-            return "delapouite/gui/svg/shopping-cart.svg"
+            return "delapouite/originals/svg/shopping-cart.svg"
         case .shorts:
             return "delapouite/originals/svg/shorts.svg"
         case .shotgun:
@@ -8087,6 +8777,8 @@ public enum GameIcon {
             return "lorc/originals/svg/shouting.svg"
         case .shower:
             return "delapouite/originals/svg/shower.svg"
+        case .shrimp:
+            return "delapouite/originals/svg/shrimp.svg"
         case .shrug:
             return "delapouite/originals/svg/shrug.svg"
         case .shuriken:
@@ -8098,7 +8790,7 @@ public enum GameIcon {
         case .shutrose:
             return "lorc/originals/svg/shut-rose.svg"
         case .shuttlecock:
-            return "delapouite/sports/svg/shuttlecock.svg"
+            return "delapouite/originals/svg/shuttlecock.svg"
         case .sickle:
             return "delapouite/originals/svg/sickle.svg"
         case .sideswipe:
@@ -8113,6 +8805,10 @@ public enum GameIcon {
             return "lorc/originals/svg/silence.svg"
         case .silenced:
             return "delapouite/originals/svg/silenced.svg"
+        case .silex:
+            return "delapouite/originals/svg/silex.svg"
+        case .sinagot:
+            return "delapouite/originals/svg/sinagot.svg"
         case .sing:
             return "lorc/originals/svg/sing.svg"
         case .sinkingship:
@@ -8161,6 +8857,8 @@ public enum GameIcon {
             return "lorc/originals/svg/skull-slices.svg"
         case .skullstaff:
             return "delapouite/originals/svg/skull-staff.svg"
+        case .skullwithsyringe:
+            return "zajkonur/originals/svg/skull-with-syringe.svg"
         case .slalom:
             return "delapouite/originals/svg/slalom.svg"
         case .slap:
@@ -8173,12 +8871,18 @@ public enum GameIcon {
             return "lorc/originals/svg/sleepy.svg"
         case .sleevelessjacket:
             return "delapouite/originals/svg/sleeveless-jacket.svg"
+        case .sleevelesstop:
+            return "delapouite/originals/svg/sleeveless-top.svg"
         case .slicedbread:
             return "lorc/originals/svg/sliced-bread.svg"
+        case .slicedmushroom:
+            return "delapouite/originals/svg/sliced-mushroom.svg"
         case .slicingarrow:
             return "lorc/originals/svg/slicing-arrow.svg"
         case .slime:
             return "delapouite/originals/svg/slime.svg"
+        case .sling:
+            return "delapouite/originals/svg/sling.svg"
         case .slingshot:
             return "delapouite/originals/svg/slingshot.svg"
         case .slowblob:
@@ -8187,6 +8891,8 @@ public enum GameIcon {
             return "lorc/originals/svg/sly.svg"
         case .smallfire:
             return "lorc/originals/svg/small-fire.svg"
+        case .smart:
+            return "delapouite/originals/svg/smart.svg"
         case .smartphone:
             return "delapouite/originals/svg/smartphone.svg"
         case .smartphone2:
@@ -8215,6 +8921,8 @@ public enum GameIcon {
             return "lorc/originals/svg/snake-bite.svg"
         case .snakeegg:
             return "delapouite/originals/svg/snake-egg.svg"
+        case .snakespiral:
+            return "delapouite/originals/svg/snake-spiral.svg"
         case .snaketongue:
             return "delapouite/originals/svg/snake-tongue.svg"
         case .snaketotem:
@@ -8240,9 +8948,9 @@ public enum GameIcon {
         case .soapexperiment:
             return "lorc/originals/svg/soap-experiment.svg"
         case .soccerball:
-            return "delapouite/sports/svg/soccer-ball.svg"
+            return "delapouite/originals/svg/soccer-ball.svg"
         case .soccerfield:
-            return "delapouite/sports/svg/soccer-field.svg"
+            return "delapouite/originals/svg/soccer-field.svg"
         case .socks:
             return "delapouite/originals/svg/socks.svg"
         case .sodacan:
@@ -8253,6 +8961,8 @@ public enum GameIcon {
             return "skoll/originals/svg/solar-power.svg"
         case .solarsystem:
             return "delapouite/originals/svg/solar-system.svg"
+        case .solartime:
+            return "delapouite/originals/svg/solar-time.svg"
         case .solidleaf:
             return "delapouite/originals/svg/solid-leaf.svg"
         case .sombrero:
@@ -8310,11 +9020,13 @@ public enum GameIcon {
         case .spawnnode:
             return "sbed/originals/svg/spawn-node.svg"
         case .speaker:
-            return "delapouite/gui/svg/speaker.svg"
+            return "delapouite/originals/svg/speaker.svg"
         case .speakeroff:
-            return "delapouite/gui/svg/speaker-off.svg"
+            return "delapouite/originals/svg/speaker-off.svg"
         case .spearfeather:
             return "delapouite/originals/svg/spear-feather.svg"
+        case .spearfishing:
+            return "delapouite/originals/svg/spearfishing.svg"
         case .spearhook:
             return "lorc/originals/svg/spear-hook.svg"
         case .spears:
@@ -8353,6 +9065,8 @@ public enum GameIcon {
             return "skoll/originals/svg/spiked-bat.svg"
         case .spikedcollar:
             return "lorc/originals/svg/spiked-collar.svg"
+        case .spikeddragonhead:
+            return "delapouite/originals/svg/spiked-dragon-head.svg"
         case .spikedfence:
             return "lorc/originals/svg/spiked-fence.svg"
         case .spikedhalo:
@@ -8429,8 +9143,12 @@ public enum GameIcon {
             return "lorc/originals/svg/split-cross.svg"
         case .splurt:
             return "lorc/originals/svg/splurt.svg"
+        case .spookyhouse:
+            return "delapouite/originals/svg/spooky-house.svg"
         case .spoon:
             return "lorc/originals/svg/spoon.svg"
+        case .sportmedal:
+            return "delapouite/originals/svg/sport-medal.svg"
         case .spotedflower:
             return "lorc/originals/svg/spoted-flower.svg"
         case .spottedarrowhead:
@@ -8445,6 +9163,8 @@ public enum GameIcon {
             return "lorc/originals/svg/spoutnik.svg"
         case .spray:
             return "lorc/originals/svg/spray.svg"
+        case .spring:
+            return "delapouite/originals/svg/spring.svg"
         case .sprint:
             return "lorc/originals/svg/sprint.svg"
         case .sprout:
@@ -8455,6 +9175,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/spy.svg"
         case .spyglass:
             return "lorc/originals/svg/spyglass.svg"
+        case .square:
+            return "delapouite/originals/svg/square.svg"
         case .squarebottle:
             return "lorc/originals/svg/square-bottle.svg"
         case .squib:
@@ -8477,14 +9199,20 @@ public enum GameIcon {
             return "skoll/originals/svg/stahlhelm.svg"
         case .stairs:
             return "delapouite/originals/svg/stairs.svg"
+        case .stairsgoal:
+            return "delapouite/originals/svg/stairs-goal.svg"
         case .stakehammer:
             return "delapouite/originals/svg/stake-hammer.svg"
+        case .stakesfence:
+            return "delapouite/originals/svg/stakes-fence.svg"
         case .stalactites:
             return "delapouite/originals/svg/stalactites.svg"
         case .stalagtite:
             return "lorc/originals/svg/stalagtite.svg"
         case .standingpotion:
             return "lorc/originals/svg/standing-potion.svg"
+        case .staraltar:
+            return "delapouite/originals/svg/star-altar.svg"
         case .starcycle:
             return "lorc/originals/svg/star-cycle.svg"
         case .starfighter:
@@ -8505,6 +9233,8 @@ public enum GameIcon {
             return "lorc/originals/svg/star-skull.svg"
         case .starsstack:
             return "delapouite/originals/svg/stars-stack.svg"
+        case .starstruck:
+            return "delapouite/originals/svg/star-struck.svg"
         case .starswirl:
             return "lorc/originals/svg/star-swirl.svg"
         case .staryu:
@@ -8517,8 +9247,12 @@ public enum GameIcon {
             return "lorc/originals/svg/static-waves.svg"
         case .steak:
             return "delapouite/originals/svg/steak.svg"
+        case .stealthbomber:
+            return "delapouite/originals/svg/stealth-bomber.svg"
         case .steam:
             return "delapouite/originals/svg/steam.svg"
+        case .steamblast:
+            return "delapouite/originals/svg/steam-blast.svg"
         case .steamlocomotive:
             return "delapouite/originals/svg/steam-locomotive.svg"
         case .steampunkgoggles:
@@ -8541,12 +9275,16 @@ public enum GameIcon {
             return "delapouite/originals/svg/stethoscope.svg"
         case .steyraug:
             return "skoll/originals/svg/steyr-aug.svg"
+        case .stickframe:
+            return "delapouite/originals/svg/stick-frame.svg"
         case .stickgrenade:
             return "skoll/originals/svg/stick-grenade.svg"
         case .stickingplaster:
             return "lorc/originals/svg/sticking-plaster.svg"
         case .sticksplitting:
             return "lorc/originals/svg/stick-splitting.svg"
+        case .stickyboot:
+            return "delapouite/originals/svg/sticky-boot.svg"
         case .stigmata:
             return "lorc/originals/svg/stigmata.svg"
         case .stiletto:
@@ -8555,6 +9293,8 @@ public enum GameIcon {
             return "skoll/originals/svg/stiletto.svg"
         case .stitchedwound:
             return "lorc/originals/svg/stitched-wound.svg"
+        case .stockpiles:
+            return "delapouite/originals/svg/stockpiles.svg"
         case .stomach:
             return "delapouite/originals/svg/stomach.svg"
         case .stomp:
@@ -8589,6 +9329,8 @@ public enum GameIcon {
             return "lorc/originals/svg/stone-tower.svg"
         case .stonewall:
             return "delapouite/originals/svg/stone-wall.svg"
+        case .stonewheel:
+            return "delapouite/originals/svg/stone-wheel.svg"
         case .stopsign:
             return "delapouite/originals/svg/stop-sign.svg"
         case .stopwatch:
@@ -8627,6 +9369,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/stun-grenade.svg"
         case .submarine:
             return "delapouite/originals/svg/submarine.svg"
+        case .subway:
+            return "delapouite/originals/svg/subway.svg"
         case .suckeredtentacle:
             return "lorc/originals/svg/suckered-tentacle.svg"
         case .sugarcane:
@@ -8637,6 +9381,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/suitcase.svg"
         case .suits:
             return "lorc/originals/svg/suits.svg"
+        case .summits:
+            return "delapouite/originals/svg/summits.svg"
         case .sun:
             return "lorc/originals/svg/sun.svg"
         case .sunbeams:
@@ -8680,6 +9426,8 @@ public enum GameIcon {
         case .sverdifjell:
             return "delapouite/originals/svg/sverd-i-fjell.svg"
         case .swallow:
+            return "delapouite/originals/svg/swallow.svg"
+        case .swallow2:
             return "lorc/originals/svg/swallow.svg"
         case .swallower:
             return "delapouite/originals/svg/swallower.svg"
@@ -8713,6 +9461,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/sword-altar.svg"
         case .swordarray:
             return "lorc/originals/svg/sword-array.svg"
+        case .swordbrandish:
+            return "delapouite/originals/svg/sword-brandish.svg"
         case .swordbreak:
             return "lorc/originals/svg/sword-break.svg"
         case .swordclash:
@@ -8759,6 +9509,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/take-my-money.svg"
         case .talk:
             return "skoll/originals/svg/talk.svg"
+        case .tallbridge:
+            return "delapouite/originals/svg/tall-bridge.svg"
         case .tangerine:
             return "delapouite/originals/svg/tangerine.svg"
         case .tank:
@@ -8782,11 +9534,13 @@ public enum GameIcon {
         case .tatteredbanner:
             return "lorc/originals/svg/tattered-banner.svg"
         case .taurus:
-            return "delapouite/zodiac/svg/taurus.svg"
+            return "delapouite/originals/svg/taurus.svg"
         case .tbrick:
-            return "delapouite/tetris/svg/t-brick.svg"
+            return "delapouite/originals/svg/t-brick.svg"
         case .teacher:
             return "delapouite/originals/svg/teacher.svg"
+        case .teamidea:
+            return "delapouite/originals/svg/team-idea.svg"
         case .teapot:
             return "lorc/originals/svg/teapot.svg"
         case .teapotleaves:
@@ -8799,6 +9553,8 @@ public enum GameIcon {
             return "skoll/originals/svg/tec-9.svg"
         case .technoheart:
             return "lorc/originals/svg/techno-heart.svg"
+        case .teepipe:
+            return "delapouite/originals/svg/tee-pipe.svg"
         case .telefrag:
             return "sbed/originals/svg/telefrag.svg"
         case .telepathy:
@@ -8815,10 +9571,14 @@ public enum GameIcon {
             return "lorc/originals/svg/templar-heart.svg"
         case .templarshield:
             return "delapouite/originals/svg/templar-shield.svg"
+        case .temporaryshield:
+            return "delapouite/originals/svg/temporary-shield.svg"
         case .temptation:
             return "lorc/originals/svg/temptation.svg"
         case .tennisball:
-            return "delapouite/sports/svg/tennis-ball.svg"
+            return "delapouite/originals/svg/tennis-ball.svg"
+        case .tenniscourt:
+            return "delapouite/originals/svg/tennis-court.svg"
         case .tennisracket:
             return "delapouite/originals/svg/tennis-racket.svg"
         case .tensionsnowflake:
@@ -8841,6 +9601,8 @@ public enum GameIcon {
             return "lorc/originals/svg/tesla-turret.svg"
         case .testtubes:
             return "lorc/originals/svg/test-tubes.svg"
+        case .texas:
+            return "delapouite/originals/svg/texas.svg"
         case .theatercurtains:
             return "delapouite/originals/svg/theater-curtains.svg"
         case .thermometercold:
@@ -8871,6 +9633,8 @@ public enum GameIcon {
             return "lorc/originals/svg/thorny-vine.svg"
         case .threeburningballs:
             return "lorc/originals/svg/three-burning-balls.svg"
+        case .threefriends:
+            return "delapouite/originals/svg/three-friends.svg"
         case .threekeys:
             return "lorc/originals/svg/three-keys.svg"
         case .threeleaves:
@@ -8879,6 +9643,8 @@ public enum GameIcon {
             return "darkzaitzev/originals/svg/three-pointed-shuriken.svg"
         case .throneking:
             return "delapouite/originals/svg/throne-king.svg"
+        case .throwingball:
+            return "delapouite/originals/svg/throwing-ball.svg"
         case .throwncharcoal:
             return "lorc/originals/svg/thrown-charcoal.svg"
         case .throwndaggers:
@@ -8892,9 +9658,9 @@ public enum GameIcon {
         case .thrustbend:
             return "delapouite/originals/svg/thrust-bend.svg"
         case .thumbdown:
-            return "delapouite/gui/svg/thumb-down.svg"
+            return "delapouite/originals/svg/thumb-down.svg"
         case .thumbup:
-            return "delapouite/gui/svg/thumb-up.svg"
+            return "delapouite/originals/svg/thumb-up.svg"
         case .thunderball:
             return "lorc/originals/svg/thunderball.svg"
         case .thunderblade:
@@ -8903,6 +9669,8 @@ public enum GameIcon {
             return "lorc/originals/svg/thunder-skull.svg"
         case .thunderstruck:
             return "lorc/originals/svg/thunder-struck.svg"
+        case .thwomp:
+            return "delapouite/originals/svg/thwomp.svg"
         case .tiara:
             return "delapouite/originals/svg/tiara.svg"
         case .tick:
@@ -9000,7 +9768,7 @@ public enum GameIcon {
         case .trample:
             return "sbed/originals/svg/trample.svg"
         case .transform:
-            return "delapouite/gui/svg/transform.svg"
+            return "delapouite/originals/svg/transform.svg"
         case .transfuse:
             return "lorc/originals/svg/transfuse.svg"
         case .transparentslime:
@@ -9025,6 +9793,8 @@ public enum GameIcon {
             return "lorc/originals/svg/tree-branch.svg"
         case .treeface:
             return "cathelineau/originals/svg/tree-face.svg"
+        case .treegrowth:
+            return "delapouite/originals/svg/tree-growth.svg"
         case .treeswing:
             return "delapouite/originals/svg/tree-swing.svg"
         case .trefoillily:
@@ -9065,6 +9835,8 @@ public enum GameIcon {
             return "lorc/originals/svg/triple-claws.svg"
         case .triplecorn:
             return "lorc/originals/svg/triple-corn.svg"
+        case .triplegate:
+            return "delapouite/originals/svg/triple-gate.svg"
         case .triplelock:
             return "lorc/originals/svg/triple-lock.svg"
         case .tripleneedle:
@@ -9115,6 +9887,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/trumpet-flag.svg"
         case .tshirt:
             return "delapouite/originals/svg/t-shirt.svg"
+        case .tumbleweed:
+            return "delapouite/originals/svg/tumbleweed.svg"
         case .tumor:
             return "lorc/originals/svg/tumor.svg"
         case .tumulus:
@@ -9123,6 +9897,8 @@ public enum GameIcon {
             return "lorc/originals/svg/tune-pitch.svg"
         case .turban:
             return "delapouite/originals/svg/turban.svg"
+        case .turbine:
+            return "delapouite/originals/svg/turbine.svg"
         case .turd:
             return "lorc/originals/svg/turd.svg"
         case .turret:
@@ -9131,6 +9907,8 @@ public enum GameIcon {
             return "lorc/originals/svg/turtle.svg"
         case .turtleshell:
             return "lorc/originals/svg/turtle-shell.svg"
+        case .tusksflag:
+            return "delapouite/originals/svg/tusks-flag.svg"
         case .tv:
             return "delapouite/originals/svg/tv.svg"
         case .tvremote:
@@ -9163,10 +9941,14 @@ public enum GameIcon {
             return "delapouite/originals/svg/ufo.svg"
         case .ultrasound:
             return "lorc/originals/svg/ultrasound.svg"
+        case .uluru:
+            return "delapouite/originals/svg/uluru.svg"
         case .umbrella:
             return "lorc/originals/svg/umbrella.svg"
         case .umbrellabayonet:
             return "delapouite/originals/svg/umbrella-bayonet.svg"
+        case .unbalanced:
+            return "delapouite/originals/svg/unbalanced.svg"
         case .uncertainty:
             return "lorc/originals/svg/uncertainty.svg"
         case .underhand:
@@ -9215,6 +9997,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/vacuum-cleaner.svg"
         case .valley:
             return "lorc/originals/svg/valley.svg"
+        case .valve:
+            return "delapouite/originals/svg/valve.svg"
         case .vampirecape:
             return "delapouite/originals/svg/vampire-cape.svg"
         case .vampiredracula:
@@ -9231,10 +10015,14 @@ public enum GameIcon {
             return "delapouite/originals/svg/velociraptor-tracks.svg"
         case .vendingmachine:
             return "delapouite/originals/svg/vending-machine.svg"
+        case .venezuela:
+            return "delapouite/originals/svg/venezuela.svg"
+        case .venusofwillendorf:
+            return "delapouite/originals/svg/venus-of-willendorf.svg"
         case .verticalbanner:
             return "delapouite/originals/svg/vertical-banner.svg"
         case .verticalflip:
-            return "delapouite/gui/svg/vertical-flip.svg"
+            return "delapouite/originals/svg/vertical-flip.svg"
         case .vial:
             return "sbed/originals/svg/vial.svg"
         case .vibratingball:
@@ -9270,7 +10058,7 @@ public enum GameIcon {
         case .violin:
             return "zajkonur/originals/svg/violin.svg"
         case .virgo:
-            return "delapouite/zodiac/svg/virgo.svg"
+            return "delapouite/originals/svg/virgo.svg"
         case .virtualmarker:
             return "delapouite/originals/svg/virtual-marker.svg"
         case .virus:
@@ -9282,7 +10070,7 @@ public enum GameIcon {
         case .volcano:
             return "lorc/originals/svg/volcano.svg"
         case .volleyballball:
-            return "delapouite/sports/svg/volleyball-ball.svg"
+            return "delapouite/originals/svg/volleyball-ball.svg"
         case .vomiting:
             return "lorc/originals/svg/vomiting.svg"
         case .voodoodoll:
@@ -9291,8 +10079,12 @@ public enum GameIcon {
             return "lorc/originals/svg/vortex.svg"
         case .vote:
             return "delapouite/originals/svg/vote.svg"
+        case .vrheadset:
+            return "delapouite/originals/svg/vr-headset.svg"
         case .vulture:
             return "lorc/originals/svg/vulture.svg"
+        case .vuvuzelas:
+            return "delapouite/originals/svg/vuvuzelas.svg"
         case .walk:
             return "delapouite/originals/svg/walk.svg"
         case .walkietalkie:
@@ -9301,14 +10093,22 @@ public enum GameIcon {
             return "lorc/originals/svg/walking-boot.svg"
         case .walkingscout:
             return "delapouite/originals/svg/walking-scout.svg"
+        case .walkingturret:
+            return "delapouite/originals/svg/walking-turret.svg"
+        case .wallet:
+            return "delapouite/originals/svg/wallet.svg"
         case .walllight:
             return "delapouite/originals/svg/wall-light.svg"
         case .walrushead:
             return "delapouite/originals/svg/walrus-head.svg"
         case .waltherppk:
             return "skoll/originals/svg/walther-ppk.svg"
+        case .wantedreward:
+            return "delapouite/originals/svg/wanted-reward.svg"
         case .waraxe:
             return "delapouite/originals/svg/war-axe.svg"
+        case .warbonnet:
+            return "delapouite/originals/svg/war-bonnet.svg"
         case .warlockeye:
             return "delapouite/originals/svg/warlock-eye.svg"
         case .warlockhood:
@@ -9325,12 +10125,18 @@ public enum GameIcon {
             return "delapouite/originals/svg/watchtower.svg"
         case .waterbolt:
             return "lorc/originals/svg/water-bolt.svg"
+        case .waterbottle:
+            return "delapouite/originals/svg/water-bottle.svg"
+        case .waterdivinerstick:
+            return "delapouite/originals/svg/water-diviner-stick.svg"
         case .waterdrop:
             return "sbed/originals/svg/water-drop.svg"
         case .waterfall:
             return "delapouite/originals/svg/waterfall.svg"
         case .waterfountain:
             return "delapouite/originals/svg/water-fountain.svg"
+        case .watergallon:
+            return "delapouite/originals/svg/water-gallon.svg"
         case .wateringcan:
             return "delapouite/originals/svg/watering-can.svg"
         case .watermelon:
@@ -9341,6 +10147,8 @@ public enum GameIcon {
             return "lorc/originals/svg/wave-crest.svg"
         case .wavestrike:
             return "lorc/originals/svg/wave-strike.svg"
+        case .wavesurfer:
+            return "delapouite/originals/svg/wave-surfer.svg"
         case .wavychains:
             return "lorc/originals/svg/wavy-chains.svg"
         case .wavyitinerary:
@@ -9409,6 +10217,8 @@ public enum GameIcon {
             return "delapouite/originals/svg/windpump.svg"
         case .windslap:
             return "lorc/originals/svg/wind-slap.svg"
+        case .windsock:
+            return "delapouite/originals/svg/windsock.svg"
         case .windturbine:
             return "delapouite/originals/svg/wind-turbine.svg"
         case .windystripes:
@@ -9433,8 +10243,12 @@ public enum GameIcon {
             return "lorc/originals/svg/wingfoot.svg"
         case .wintergloves:
             return "delapouite/originals/svg/winter-gloves.svg"
+        case .winterhat:
+            return "delapouite/originals/svg/winter-hat.svg"
         case .wireframeglobe:
             return "delapouite/originals/svg/wireframe-globe.svg"
+        case .wisdom:
+            return "delapouite/originals/svg/wisdom.svg"
         case .witchface:
             return "cathelineau/originals/svg/witch-face.svg"
         case .witchflight:
@@ -9457,6 +10271,8 @@ public enum GameIcon {
             return "lorc/originals/svg/wood-axe.svg"
         case .woodcabin:
             return "delapouite/originals/svg/wood-cabin.svg"
+        case .woodcanoe:
+            return "delapouite/originals/svg/wood-canoe.svg"
         case .woodclub:
             return "delapouite/originals/svg/wood-club.svg"
         case .woodenclogs:
@@ -9477,6 +10293,8 @@ public enum GameIcon {
             return "lorc/originals/svg/wooden-sign.svg"
         case .woodpile:
             return "delapouite/originals/svg/wood-pile.svg"
+        case .woodstick:
+            return "delapouite/originals/svg/wood-stick.svg"
         case .wool:
             return "delapouite/originals/svg/wool.svg"
         case .world:
@@ -9503,8 +10321,10 @@ public enum GameIcon {
             return "delapouite/originals/svg/xylophone.svg"
         case .yinyang:
             return "delapouite/originals/svg/yin-yang.svg"
+        case .zatgun:
+            return "delapouite/originals/svg/zat-gun.svg"
         case .zbrick:
-            return "delapouite/tetris/svg/z-brick.svg"
+            return "delapouite/originals/svg/z-brick.svg"
         case .zebrashield:
             return "lorc/originals/svg/zebra-shield.svg"
         case .zeppelin:
@@ -9515,6 +10335,8 @@ public enum GameIcon {
             return "lorc/originals/svg/zig-arrow.svg"
         case .zigzagcage:
             return "lorc/originals/svg/zigzag-cage.svg"
+        case .zigzaghieroglyph:
+            return "delapouite/originals/svg/zigzag-hieroglyph.svg"
         case .zigzagleaf:
             return "lorc/originals/svg/zigzag-leaf.svg"
         case .zigzagtune:
