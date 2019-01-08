@@ -17,11 +17,6 @@ class GameIconsTests: XCTestCase {
         XCTAssertEqual(url.pathComponents[(url.pathComponents.index(url.pathComponents.endIndex, offsetBy: -5))..<url.pathComponents.endIndex].joined(separator: "/"), "icons/lorc/originals/svg/fission.svg")
     }
 
-    func testImageSizeCGRect() {
-        // 3. Assert
-        XCTAssertEqual(GameIcon.fission.image(size: CGRect(x: 0, y: 0, width: 10, height: 10)).size, CGSize(width: 10, height: 10))
-    }
-
     func testImageSizeCGSize() {
         // 3. Assert
         XCTAssertEqual(GameIcon.fission.image(size: CGSize(width: 10, height: 10)).size, CGSize(width: 10, height: 10))

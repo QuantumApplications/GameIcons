@@ -1,6 +1,6 @@
 [submodule "Resources/icons"]
 	path = Resources/icons
 	url = https://github.com/QuantumApplications/icons.git
-[submodule "Frameworks/SwiftSVG"]
-	path = Frameworks/SwiftSVG
-	url = https://github.com/QuantumApplications/SwiftSVG.git
+[submodule "Frameworks/Macaw"]
+	path = Frameworks/Macaw
+	url = https://github.com/QuantumApplications/Macaw.git
