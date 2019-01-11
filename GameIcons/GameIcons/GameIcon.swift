@@ -8,6 +8,7 @@
 
 import Foundation
 import Macaw
+import UIKit
 
 public enum GameIcon {
 
@@ -10352,7 +10353,10 @@ public enum GameIcon {
     }
 
     public func image(size: CGSize, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImage.Orientation = .up) -> UIImage {
-        return (try? SVGParser.parse(fullPath: self.url.path))?.toNativeImage(size: size.toMacaw()) ?? UIImage()
+        // Render image
+        let image = (try? SVGParser.parse(fullPath: self.url.path))?.toNativeImage(size: size.toMacaw()) ?? UIImage()
+        // Apply UI scaling factor and orientation
+        return UIImage(cgImage: image.cgImage!, scale: scale, orientation: orientation)
     }
 
     public func image(size: Int, scale: CGFloat = 1.0, boundingBox: Int? = nil, orientation: UIImage.Orientation = .up) -> UIImage {
