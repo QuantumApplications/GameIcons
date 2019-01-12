@@ -29,8 +29,7 @@ class GameIconsTests: XCTestCase {
 
     func testTabBarImage() {
         // 3. Assert
-        let scale = UIScreen.main.scale
-        XCTAssertEqual(GameIcon.fission.tabBarImage.size, CGSize(width: 32 * scale, height: 32 * scale))
+        XCTAssertEqual(GameIcon.fission.tabBarImage.size, CGSize(width: 32, height: 32))
     }
 
 }
