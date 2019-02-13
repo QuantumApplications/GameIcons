@@ -16,27 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9F13540B1FDF2BCF007D6919 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 39B8D88C1B3C3283009DAF60;
-			remoteInfo = SwiftSVG;
-		};
-		9F13540D1FDF2BCF007D6919 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 176BC9901EE474D100F7B54C;
-			remoteInfo = SwiftSVGTests;
-		};
-		9F1354121FDF2C08007D6919 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 39B8D88B1B3C3283009DAF60;
-			remoteInfo = SwiftSVG;
-		};
 		9F70C31E21E2C814005EDE92 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9F70C31821E2C814005EDE92 /* Macaw.xcodeproj */;
@@ -76,7 +55,6 @@
 
 /* Begin PBXFileReference section */
 		9F1354031FDF0D8B007D6919 /* GameIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIcon.swift; sourceTree = "<group>"; };
-		9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftSVG.xcodeproj; path = ../Frameworks/SwiftSVG/SwiftSVG.xcodeproj; sourceTree = "<group>"; };
 		9F1354101FDF2BEA007D6919 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../Resources/icons; sourceTree = "<group>"; };
 		9F27D1A12001567600A3560B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9F27D1A920015B7100A3560B /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
@@ -115,18 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				9F70C31821E2C814005EDE92 /* Macaw.xcodeproj */,
-				9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9F1354071FDF2BCE007D6919 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9F13540C1FDF2BCF007D6919 /* SwiftSVG.framework */,
-				9F13540E1FDF2BCF007D6919 /* SwiftSVGTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9F13540F1FDF2BD5007D6919 /* Resources */ = {
@@ -218,7 +186,6 @@
 			);
 			dependencies = (
 				9F70C34B21E2DEC7005EDE92 /* PBXTargetDependency */,
-				9F1354131FDF2C08007D6919 /* PBXTargetDependency */,
 			);
 			name = GameIcons;
 			productName = GameIcons;
@@ -280,10 +247,6 @@
 					ProductGroup = 9F70C31921E2C814005EDE92 /* Products */;
 					ProjectRef = 9F70C31821E2C814005EDE92 /* Macaw.xcodeproj */;
 				},
-				{
-					ProductGroup = 9F1354071FDF2BCE007D6919 /* Products */;
-					ProjectRef = 9F1354061FDF2BCE007D6919 /* SwiftSVG.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -294,20 +257,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9F13540C1FDF2BCF007D6919 /* SwiftSVG.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftSVG.framework;
-			remoteRef = 9F13540B1FDF2BCF007D6919 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		9F13540E1FDF2BCF007D6919 /* SwiftSVGTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftSVGTests.xctest;
-			remoteRef = 9F13540D1FDF2BCF007D6919 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		9F70C31F21E2C814005EDE92 /* Macaw.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -385,11 +334,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9F1354131FDF2C08007D6919 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftSVG;
-			targetProxy = 9F1354121FDF2C08007D6919 /* PBXContainerItemProxy */;
-		};
 		9F70C34B21E2DEC7005EDE92 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Macaw;
