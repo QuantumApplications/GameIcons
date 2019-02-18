@@ -10352,20 +10352,20 @@ public enum GameIcon {
         return bundle.resourceURL!.appendingPathComponent("icons/" + self.relativePath)
     }
 
-    public func image(size: CGSize, scale: CGFloat = 1.0, boundingBox: CGSize? = nil, orientation: UIImage.Orientation = .up) -> UIImage {
+    public func image(size: CGSize, scale: CGFloat = UIScreen.main.scale, orientation: UIImage.Orientation = .up) -> UIImage {
         // Render image
         let image = (try? SVGParser.parse(fullPath: self.url.path))?.toNativeImage(size: size.toMacaw()) ?? UIImage()
         // Apply UI scaling factor and orientation
         return UIImage(cgImage: image.cgImage!, scale: scale, orientation: orientation)
     }
 
-    public func image(size: Int, scale: CGFloat = 1.0, boundingBox: Int? = nil, orientation: UIImage.Orientation = .up) -> UIImage {
-        return self.image(size: CGSize(width: size, height: size), scale: scale, boundingBox: CGSize(width: boundingBox ?? size, height: boundingBox ?? size), orientation: orientation)
+    public func image(size: Int, scale: CGFloat = UIScreen.main.scale, orientation: UIImage.Orientation = .up) -> UIImage {
+        return self.image(size: CGSize(width: size, height: size), scale: scale, orientation: orientation)
     }
 
     public var tabBarImage: UIImage {
         let scale = UIScreen.main.scale
-        return self.image(size: 32 * Int(scale), scale: scale, boundingBox: 40 * Int(scale))
+        return self.image(size: 32 * Int(scale), scale: scale)
     }
 
 }
