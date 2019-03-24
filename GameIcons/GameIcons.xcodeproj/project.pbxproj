@@ -8,8 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		9F1354041FDF0D8B007D6919 /* GameIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1354031FDF0D8B007D6919 /* GameIcon.swift */; };
-		9F1354111FDF2BEA007D6919 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 9F1354101FDF2BEA007D6919 /* icons */; };
 		9F70C32421E2C822005EDE92 /* Macaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F70C31F21E2C814005EDE92 /* Macaw.framework */; };
+		9F8645AD2246F85200712CDD /* generalace135 in Resources */ = {isa = PBXBuildFile; fileRef = 9F86458F2246F84F00712CDD /* generalace135 */; };
+		9F8645AE2246F85200712CDD /* lucasms in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645902246F84F00712CDD /* lucasms */; };
+		9F8645AF2246F85200712CDD /* lord-berandas in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645912246F84F00712CDD /* lord-berandas */; };
+		9F8645B02246F85200712CDD /* viscious-speed in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645922246F84F00712CDD /* viscious-speed */; };
+		9F8645B12246F85200712CDD /* skoll in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645932246F84F00712CDD /* skoll */; };
+		9F8645B22246F85200712CDD /* guard13007 in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645942246F84F00712CDD /* guard13007 */; };
+		9F8645B32246F85200712CDD /* sbed in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645952246F85000712CDD /* sbed */; };
+		9F8645B42246F85200712CDD /* heavenly-dog in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645962246F85000712CDD /* heavenly-dog */; };
+		9F8645B52246F85200712CDD /* priorblue in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645972246F85000712CDD /* priorblue */; };
+		9F8645B62246F85200712CDD /* andymeneely in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645982246F85000712CDD /* andymeneely */; };
+		9F8645B72246F85200712CDD /* cathelineau in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645992246F85000712CDD /* cathelineau */; };
+		9F8645B82246F85200712CDD /* sparker in Resources */ = {isa = PBXBuildFile; fileRef = 9F86459A2246F85000712CDD /* sparker */; };
+		9F8645B92246F85200712CDD /* rihlsul in Resources */ = {isa = PBXBuildFile; fileRef = 9F86459B2246F85000712CDD /* rihlsul */; };
+		9F8645BA2246F85200712CDD /* john-redman in Resources */ = {isa = PBXBuildFile; fileRef = 9F86459C2246F85000712CDD /* john-redman */; };
+		9F8645BB2246F85200712CDD /* various-artists in Resources */ = {isa = PBXBuildFile; fileRef = 9F86459D2246F85000712CDD /* various-artists */; };
+		9F8645BC2246F85200712CDD /* aussiesim in Resources */ = {isa = PBXBuildFile; fileRef = 9F86459E2246F85000712CDD /* aussiesim */; };
+		9F8645BD2246F85200712CDD /* irongamer in Resources */ = {isa = PBXBuildFile; fileRef = 9F86459F2246F85000712CDD /* irongamer */; };
+		9F8645BE2246F85200712CDD /* spencerdub in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A02246F85000712CDD /* spencerdub */; };
+		9F8645BF2246F85200712CDD /* faithtoken in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A12246F85000712CDD /* faithtoken */; };
+		9F8645C02246F85200712CDD /* zajkonur in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A22246F85100712CDD /* zajkonur */; };
+		9F8645C12246F85200712CDD /* john-colburn in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A32246F85100712CDD /* john-colburn */; };
+		9F8645C22246F85200712CDD /* lorc in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A42246F85100712CDD /* lorc */; };
+		9F8645C32246F85200712CDD /* felbrigg in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A52246F85100712CDD /* felbrigg */; };
+		9F8645C42246F85200712CDD /* zeromancer in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A62246F85100712CDD /* zeromancer */; };
+		9F8645C52246F85200712CDD /* carl-olsen in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A72246F85100712CDD /* carl-olsen */; };
+		9F8645C62246F85200712CDD /* delapouite in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A82246F85100712CDD /* delapouite */; };
+		9F8645C72246F85200712CDD /* willdabeast in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645A92246F85100712CDD /* willdabeast */; };
+		9F8645C82246F85200712CDD /* kier-heyl in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645AA2246F85200712CDD /* kier-heyl */; };
+		9F8645C92246F85200712CDD /* darkzaitzev in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645AB2246F85200712CDD /* darkzaitzev */; };
+		9F8645CA2246F85200712CDD /* quoting in Resources */ = {isa = PBXBuildFile; fileRef = 9F8645AC2246F85200712CDD /* quoting */; };
 		9F8B286F1FDDEE8F006C8917 /* GameIcons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8B28651FDDEE8F006C8917 /* GameIcons.framework */; };
 		9F8B28741FDDEE8F006C8917 /* GameIconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8B28731FDDEE8F006C8917 /* GameIconTests.swift */; };
 		9F8B28761FDDEE8F006C8917 /* GameIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F8B28681FDDEE8F006C8917 /* GameIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,12 +84,47 @@
 
 /* Begin PBXFileReference section */
 		9F1354031FDF0D8B007D6919 /* GameIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameIcon.swift; sourceTree = "<group>"; };
-		9F1354101FDF2BEA007D6919 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../Resources/icons; sourceTree = "<group>"; };
 		9F27D1A12001567600A3560B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9F27D1A920015B7100A3560B /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		9F2F1470208D3083003E83E0 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		9F2F1472208D309D003E83E0 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		9F70C31821E2C814005EDE92 /* Macaw.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Macaw.xcodeproj; path = ../Frameworks/Macaw/Macaw.xcodeproj; sourceTree = "<group>"; };
+		9F86458F2246F84F00712CDD /* generalace135 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = generalace135; path = ../Resources/icons/generalace135; sourceTree = "<group>"; };
+		9F8645902246F84F00712CDD /* lucasms */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lucasms; path = ../Resources/icons/lucasms; sourceTree = "<group>"; };
+		9F8645912246F84F00712CDD /* lord-berandas */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "lord-berandas"; path = "../Resources/icons/lord-berandas"; sourceTree = "<group>"; };
+		9F8645922246F84F00712CDD /* viscious-speed */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "viscious-speed"; path = "../Resources/icons/viscious-speed"; sourceTree = "<group>"; };
+		9F8645932246F84F00712CDD /* skoll */ = {isa = PBXFileReference; lastKnownFileType = folder; name = skoll; path = ../Resources/icons/skoll; sourceTree = "<group>"; };
+		9F8645942246F84F00712CDD /* guard13007 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = guard13007; path = ../Resources/icons/guard13007; sourceTree = "<group>"; };
+		9F8645952246F85000712CDD /* sbed */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sbed; path = ../Resources/icons/sbed; sourceTree = "<group>"; };
+		9F8645962246F85000712CDD /* heavenly-dog */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "heavenly-dog"; path = "../Resources/icons/heavenly-dog"; sourceTree = "<group>"; };
+		9F8645972246F85000712CDD /* priorblue */ = {isa = PBXFileReference; lastKnownFileType = folder; name = priorblue; path = ../Resources/icons/priorblue; sourceTree = "<group>"; };
+		9F8645982246F85000712CDD /* andymeneely */ = {isa = PBXFileReference; lastKnownFileType = folder; name = andymeneely; path = ../Resources/icons/andymeneely; sourceTree = "<group>"; };
+		9F8645992246F85000712CDD /* cathelineau */ = {isa = PBXFileReference; lastKnownFileType = folder; name = cathelineau; path = ../Resources/icons/cathelineau; sourceTree = "<group>"; };
+		9F86459A2246F85000712CDD /* sparker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sparker; path = ../Resources/icons/sparker; sourceTree = "<group>"; };
+		9F86459B2246F85000712CDD /* rihlsul */ = {isa = PBXFileReference; lastKnownFileType = folder; name = rihlsul; path = ../Resources/icons/rihlsul; sourceTree = "<group>"; };
+		9F86459C2246F85000712CDD /* john-redman */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "john-redman"; path = "../Resources/icons/john-redman"; sourceTree = "<group>"; };
+		9F86459D2246F85000712CDD /* various-artists */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "various-artists"; path = "../Resources/icons/various-artists"; sourceTree = "<group>"; };
+		9F86459E2246F85000712CDD /* aussiesim */ = {isa = PBXFileReference; lastKnownFileType = folder; name = aussiesim; path = ../Resources/icons/aussiesim; sourceTree = "<group>"; };
+		9F86459F2246F85000712CDD /* irongamer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = irongamer; path = ../Resources/icons/irongamer; sourceTree = "<group>"; };
+		9F8645A02246F85000712CDD /* spencerdub */ = {isa = PBXFileReference; lastKnownFileType = folder; name = spencerdub; path = ../Resources/icons/spencerdub; sourceTree = "<group>"; };
+		9F8645A12246F85000712CDD /* faithtoken */ = {isa = PBXFileReference; lastKnownFileType = folder; name = faithtoken; path = ../Resources/icons/faithtoken; sourceTree = "<group>"; };
+		9F8645A22246F85100712CDD /* zajkonur */ = {isa = PBXFileReference; lastKnownFileType = folder; name = zajkonur; path = ../Resources/icons/zajkonur; sourceTree = "<group>"; };
+		9F8645A32246F85100712CDD /* john-colburn */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "john-colburn"; path = "../Resources/icons/john-colburn"; sourceTree = "<group>"; };
+		9F8645A42246F85100712CDD /* lorc */ = {isa = PBXFileReference; lastKnownFileType = folder; name = lorc; path = ../Resources/icons/lorc; sourceTree = "<group>"; };
+		9F8645A52246F85100712CDD /* felbrigg */ = {isa = PBXFileReference; lastKnownFileType = folder; name = felbrigg; path = ../Resources/icons/felbrigg; sourceTree = "<group>"; };
+		9F8645A62246F85100712CDD /* zeromancer */ = {isa = PBXFileReference; lastKnownFileType = folder; name = zeromancer; path = ../Resources/icons/zeromancer; sourceTree = "<group>"; };
+		9F8645A72246F85100712CDD /* carl-olsen */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "carl-olsen"; path = "../Resources/icons/carl-olsen"; sourceTree = "<group>"; };
+		9F8645A82246F85100712CDD /* delapouite */ = {isa = PBXFileReference; lastKnownFileType = folder; name = delapouite; path = ../Resources/icons/delapouite; sourceTree = "<group>"; };
+		9F8645A92246F85100712CDD /* willdabeast */ = {isa = PBXFileReference; lastKnownFileType = folder; name = willdabeast; path = ../Resources/icons/willdabeast; sourceTree = "<group>"; };
+		9F8645AA2246F85200712CDD /* kier-heyl */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "kier-heyl"; path = "../Resources/icons/kier-heyl"; sourceTree = "<group>"; };
+		9F8645AB2246F85200712CDD /* darkzaitzev */ = {isa = PBXFileReference; lastKnownFileType = folder; name = darkzaitzev; path = ../Resources/icons/darkzaitzev; sourceTree = "<group>"; };
+		9F8645AC2246F85200712CDD /* quoting */ = {isa = PBXFileReference; lastKnownFileType = folder; name = quoting; path = ../Resources/icons/quoting; sourceTree = "<group>"; };
+		9F8645CB2246F86E00712CDD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../Resources/icons/README.md; sourceTree = "<group>"; };
+		9F8645CC2246F86E00712CDD /* removeBackground.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = removeBackground.sh; path = ../Resources/icons/removeBackground.sh; sourceTree = "<group>"; };
+		9F8645CD2246F86E00712CDD /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../Resources/icons/CONTRIBUTING.md; sourceTree = "<group>"; };
+		9F8645CE2246F86E00712CDD /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = license.txt; path = ../Resources/icons/license.txt; sourceTree = "<group>"; };
+		9F8645CF2246F86E00712CDD /* printEnum.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = printEnum.sh; path = ../Resources/icons/printEnum.sh; sourceTree = "<group>"; };
+		9F8645D02246F86F00712CDD /* printEnum.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; name = printEnum.py; path = ../Resources/icons/printEnum.py; sourceTree = "<group>"; };
 		9F8B28651FDDEE8F006C8917 /* GameIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GameIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8B28681FDDEE8F006C8917 /* GameIcons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameIcons.h; sourceTree = "<group>"; };
 		9F8B28691FDDEE8F006C8917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,7 +164,42 @@
 		9F13540F1FDF2BD5007D6919 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9F1354101FDF2BEA007D6919 /* icons */,
+				9F8645982246F85000712CDD /* andymeneely */,
+				9F86459E2246F85000712CDD /* aussiesim */,
+				9F8645A72246F85100712CDD /* carl-olsen */,
+				9F8645992246F85000712CDD /* cathelineau */,
+				9F8645AB2246F85200712CDD /* darkzaitzev */,
+				9F8645A82246F85100712CDD /* delapouite */,
+				9F8645A12246F85000712CDD /* faithtoken */,
+				9F8645A52246F85100712CDD /* felbrigg */,
+				9F86458F2246F84F00712CDD /* generalace135 */,
+				9F8645942246F84F00712CDD /* guard13007 */,
+				9F8645962246F85000712CDD /* heavenly-dog */,
+				9F86459F2246F85000712CDD /* irongamer */,
+				9F8645A32246F85100712CDD /* john-colburn */,
+				9F86459C2246F85000712CDD /* john-redman */,
+				9F8645AA2246F85200712CDD /* kier-heyl */,
+				9F8645A42246F85100712CDD /* lorc */,
+				9F8645912246F84F00712CDD /* lord-berandas */,
+				9F8645902246F84F00712CDD /* lucasms */,
+				9F8645972246F85000712CDD /* priorblue */,
+				9F8645AC2246F85200712CDD /* quoting */,
+				9F86459B2246F85000712CDD /* rihlsul */,
+				9F8645952246F85000712CDD /* sbed */,
+				9F8645932246F84F00712CDD /* skoll */,
+				9F86459A2246F85000712CDD /* sparker */,
+				9F8645A02246F85000712CDD /* spencerdub */,
+				9F86459D2246F85000712CDD /* various-artists */,
+				9F8645922246F84F00712CDD /* viscious-speed */,
+				9F8645A92246F85100712CDD /* willdabeast */,
+				9F8645A22246F85100712CDD /* zajkonur */,
+				9F8645A62246F85100712CDD /* zeromancer */,
+				9F8645CD2246F86E00712CDD /* CONTRIBUTING.md */,
+				9F8645CB2246F86E00712CDD /* README.md */,
+				9F8645D02246F86F00712CDD /* printEnum.py */,
+				9F8645CF2246F86E00712CDD /* printEnum.sh */,
+				9F8645CC2246F86E00712CDD /* removeBackground.sh */,
+				9F8645CE2246F86E00712CDD /* license.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -285,7 +384,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F1354111FDF2BEA007D6919 /* icons in Resources */,
+				9F8645C02246F85200712CDD /* zajkonur in Resources */,
+				9F8645BD2246F85200712CDD /* irongamer in Resources */,
+				9F8645C32246F85200712CDD /* felbrigg in Resources */,
+				9F8645BF2246F85200712CDD /* faithtoken in Resources */,
+				9F8645C72246F85200712CDD /* willdabeast in Resources */,
+				9F8645B22246F85200712CDD /* guard13007 in Resources */,
+				9F8645C92246F85200712CDD /* darkzaitzev in Resources */,
+				9F8645B92246F85200712CDD /* rihlsul in Resources */,
+				9F8645AF2246F85200712CDD /* lord-berandas in Resources */,
+				9F8645B72246F85200712CDD /* cathelineau in Resources */,
+				9F8645B82246F85200712CDD /* sparker in Resources */,
+				9F8645B02246F85200712CDD /* viscious-speed in Resources */,
+				9F8645CA2246F85200712CDD /* quoting in Resources */,
+				9F8645C62246F85200712CDD /* delapouite in Resources */,
+				9F8645B12246F85200712CDD /* skoll in Resources */,
+				9F8645BB2246F85200712CDD /* various-artists in Resources */,
+				9F8645B32246F85200712CDD /* sbed in Resources */,
+				9F8645BA2246F85200712CDD /* john-redman in Resources */,
+				9F8645C12246F85200712CDD /* john-colburn in Resources */,
+				9F8645BE2246F85200712CDD /* spencerdub in Resources */,
+				9F8645C42246F85200712CDD /* zeromancer in Resources */,
+				9F8645B52246F85200712CDD /* priorblue in Resources */,
+				9F8645C22246F85200712CDD /* lorc in Resources */,
+				9F8645AD2246F85200712CDD /* generalace135 in Resources */,
+				9F8645BC2246F85200712CDD /* aussiesim in Resources */,
+				9F8645AE2246F85200712CDD /* lucasms in Resources */,
+				9F8645B62246F85200712CDD /* andymeneely in Resources */,
+				9F8645C52246F85200712CDD /* carl-olsen in Resources */,
+				9F8645B42246F85200712CDD /* heavenly-dog in Resources */,
+				9F8645C82246F85200712CDD /* kier-heyl in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +597,6 @@
 		9F8B287A1FDDEE8F006C8917 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -492,7 +619,6 @@
 		9F8B287B1FDDEE8F006C8917 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -514,7 +640,6 @@
 		9F8B287D1FDDEE8F006C8917 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HK9FBL7C9X;
 				INFOPLIST_FILE = GameIconsTests/Info.plist;
@@ -529,7 +654,6 @@
 		9F8B287E1FDDEE8F006C8917 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HK9FBL7C9X;
 				INFOPLIST_FILE = GameIconsTests/Info.plist;

@@ -10349,7 +10349,7 @@ public enum GameIcon {
 
     public var url: URL {
         let bundle = Bundle(identifier: "qa.quantum.GameIcons")!
-        return bundle.resourceURL!.appendingPathComponent("icons/" + self.relativePath)
+        return bundle.resourceURL!.appendingPathComponent(self.relativePath)
     }
 
     public func image(size: CGSize, scale: CGFloat = UIScreen.main.scale, orientation: UIImage.Orientation = .up) -> UIImage {
