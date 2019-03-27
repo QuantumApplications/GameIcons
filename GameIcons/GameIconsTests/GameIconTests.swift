@@ -14,17 +14,17 @@ class GameIconsTests: XCTestCase {
     func testUrl() {
         // 3. Assert
         let url = GameIcon.fission.url
-        XCTAssertEqual(url.pathComponents[(url.pathComponents.index(url.pathComponents.endIndex, offsetBy: -5))..<url.pathComponents.endIndex].joined(separator: "/"), "icons/lorc/originals/svg/fission.svg")
+        XCTAssertEqual(url.pathComponents[(url.pathComponents.index(url.pathComponents.endIndex, offsetBy: -5))..<url.pathComponents.endIndex].joined(separator: "/"), "GameIcons.framework/lorc/originals/svg/fission.svg")
     }
 
     func testImageSizeCGSize() {
         // 3. Assert
-        XCTAssertEqual(GameIcon.fission.image(size: CGSize(width: 10, height: 10)).size, CGSize(width: 10, height: 10))
+        XCTAssertEqual(GameIcon.fission.image(size: CGSize(width: 10, height: 10)).size, CGSize(width: 10.0 / UIScreen.main.scale, height: 10.0 / UIScreen.main.scale))
     }
 
     func testImageSizeInt() {
         // 3. Assert
-        XCTAssertEqual(GameIcon.fission.image(size: 10).size, CGSize(width: 10, height: 10))
+        XCTAssertEqual(GameIcon.fission.image(size: 10).size, CGSize(width: 10.0 / UIScreen.main.scale, height: 10.0 / UIScreen.main.scale))
     }
 
     func testTabBarImage() {
