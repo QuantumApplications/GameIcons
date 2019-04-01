@@ -7,4 +7,10 @@
    <FileRef
       location = "group:GameIconsExample/GameIconsExample.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:.travis.yml">
+   </FileRef>
 </Workspace>

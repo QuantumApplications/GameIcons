@@ -1,6 +1,6 @@
 # GameIcons
 
-[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-brightgreen.svg?style=flat)](https://swift.org/)
+[![Swift 5](https://img.shields.io/badge/Swift-5-brightgreen.svg?style=flat)](https://swift.org/)
 [![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)]()
 
 #### Code Quality
