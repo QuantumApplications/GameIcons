@@ -8,9 +8,18 @@
       location = "group:GameIconsExample/GameIconsExample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:README.md">
+      location = "group:.travis.yml">
    </FileRef>
    <FileRef
-      location = "group:.travis.yml">
+      location = "group:Cartfile">
+   </FileRef>
+   <FileRef
+      location = "group:Cartfile.resolved">
+   </FileRef>
+   <FileRef
+      location = "group:LICENSE">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
    </FileRef>
 </Workspace>

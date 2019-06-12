@@ -56,9 +56,9 @@
 		9FA6876120570D7F00CD877D = {
 			isa = PBXGroup;
 			children = (
-				9FDE6F7820570F6E00394C57 /* GameIcons.framework */,
 				9FA6876C20570D7F00CD877D /* GameIconsExample */,
 				9FA6876B20570D7F00CD877D /* Products */,
+				9FDE6F7820570F6E00394C57 /* GameIcons.framework */,
 			);
 			sourceTree = "<group>";
 		};
