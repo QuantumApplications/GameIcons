@@ -17,9 +17,18 @@
       location = "group:Cartfile.resolved">
    </FileRef>
    <FileRef
+      location = "group:Gemfile">
+   </FileRef>
+   <FileRef
+      location = "group:Gemfile.lock">
+   </FileRef>
+   <FileRef
       location = "group:LICENSE">
    </FileRef>
    <FileRef
       location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:fastlane">
    </FileRef>
 </Workspace>
