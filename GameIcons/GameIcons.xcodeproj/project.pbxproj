@@ -227,7 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F8B28791FDDEE8F006C8917 /* Build configuration list for PBXNativeTarget "GameIcons" */;
 			buildPhases = (
-				9F27D19B1FFEC56200A3560B /* swiftlint */,
+				9F27D19B1FFEC56200A3560B /* SwiftLint */,
 				9F8B28601FDDEE8F006C8917 /* Sources */,
 				9F8B28611FDDEE8F006C8917 /* Frameworks */,
 				9F8B28621FDDEE8F006C8917 /* Headers */,
@@ -246,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F8B287C1FDDEE8F006C8917 /* Build configuration list for PBXNativeTarget "GameIconsTests" */;
 			buildPhases = (
-				9F01C31122B1606B00712D17 /* swiftlint */,
+				9F01C31122B1606B00712D17 /* SwiftLint */,
 				9F8B286A1FDDEE8F006C8917 /* Sources */,
 				9F8B286B1FDDEE8F006C8917 /* Frameworks */,
 				9F8B286C1FDDEE8F006C8917 /* Resources */,
@@ -370,7 +370,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
-		9F01C31122B1606B00712D17 /* swiftlint */ = {
+		9F01C31122B1606B00712D17 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,7 +379,7 @@
 			);
 			inputPaths = (
 			);
-			name = swiftlint;
+			name = SwiftLint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -388,14 +388,14 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		9F27D19B1FFEC56200A3560B /* swiftlint */ = {
+		9F27D19B1FFEC56200A3560B /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = swiftlint;
+			name = SwiftLint;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
