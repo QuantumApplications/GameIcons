@@ -191,9 +191,9 @@
 		9F8B28671FDDEE8F006C8917 /* GameIcons */ = {
 			isa = PBXGroup;
 			children = (
-				9F8B28681FDDEE8F006C8917 /* GameIcons.h */,
 				9F1354031FDF0D8B007D6919 /* GameIcon.swift */,
 				9F8B28691FDDEE8F006C8917 /* Info.plist */,
+				9F8B28681FDDEE8F006C8917 /* GameIcons.h */,
 				9F2F1470208D3083003E83E0 /* .swiftlint.yml */,
 			);
 			path = GameIcons;
@@ -227,8 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F8B28791FDDEE8F006C8917 /* Build configuration list for PBXNativeTarget "GameIcons" */;
 			buildPhases = (
-				9F27D19B1FFEC56200A3560B /* ShellScript */,
-				9F01C30F22B1602600712D17 /* ShellScript */,
+				9F27D19B1FFEC56200A3560B /* swiftlint */,
 				9F8B28601FDDEE8F006C8917 /* Sources */,
 				9F8B28611FDDEE8F006C8917 /* Frameworks */,
 				9F8B28621FDDEE8F006C8917 /* Headers */,
@@ -247,11 +246,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F8B287C1FDDEE8F006C8917 /* Build configuration list for PBXNativeTarget "GameIconsTests" */;
 			buildPhases = (
-				9F01C31122B1606B00712D17 /* ShellScript */,
-				9F01C31022B1604800712D17 /* ShellScript */,
+				9F01C31122B1606B00712D17 /* swiftlint */,
 				9F8B286A1FDDEE8F006C8917 /* Sources */,
 				9F8B286B1FDDEE8F006C8917 /* Frameworks */,
 				9F8B286C1FDDEE8F006C8917 /* Resources */,
+				9F01C31022B1604800712D17 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -352,7 +351,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9F01C30F22B1602600712D17 /* ShellScript */ = {
+		9F01C31022B1604800712D17 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -362,6 +361,7 @@
 			inputPaths = (
 				"$(SRCROOT)/../Carthage/Build/iOS/Macaw.framework",
 			);
+			name = Carthage;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -370,25 +370,7 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
-		9F01C31022B1604800712D17 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/iOS/Macaw.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
-		};
-		9F01C31122B1606B00712D17 /* ShellScript */ = {
+		9F01C31122B1606B00712D17 /* swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,6 +379,7 @@
 			);
 			inputPaths = (
 			);
+			name = swiftlint;
 			outputFileListPaths = (
 			);
 			outputPaths = (
@@ -405,13 +388,14 @@
 			shellPath = /bin/sh;
 			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
-		9F27D19B1FFEC56200A3560B /* ShellScript */ = {
+		9F27D19B1FFEC56200A3560B /* swiftlint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = swiftlint;
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +491,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -563,7 +546,6 @@
 				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
