@@ -10344,6 +10344,8 @@ public enum GameIcon {
             return "lorc/originals/svg/zigzag-tune.svg"
         case .zipper:
             return "delapouite/originals/svg/zipper.svg"
+        default:
+            return ""
         }
     }
 
